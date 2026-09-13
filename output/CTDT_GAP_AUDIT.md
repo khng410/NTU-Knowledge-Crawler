@@ -1,0 +1,190 @@
+# CTĐT Gap Audit
+
+> `missing` means the current official CTĐT API did not publish that major/cohort combination. It does not prove that a curriculum never existed.
+
+## Evidence
+
+- Discovery API: https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- Expected scope: K63–K68
+- Missing combinations: 165
+
+## Missing by cohort
+
+- K63: 23
+- K64: 38
+- K65: 30
+- K66: 41
+- K67: 31
+- K68: 2
+
+## Failed official PDF links
+
+- `https://ctdt.ntu.edu.vn/ctdt/7580205_CTGT_K64.pdf` — retries: 3; HTTP Error 404: Not Found
+
+## Missing combinations
+
+- K64 — 7220201 — Ngôn ngữ Anh — `api_absent` — maNganh=7220201; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7220201 — Ngôn ngữ Anh — `api_absent` — maNganh=7220201; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7220201 — Ngôn ngữ Anh — `api_absent` — maNganh=7220201; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7310101 — Kinh tế — `api_absent` — maNganh=7310101; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7310101 — Kinh tế — `api_absent` — maNganh=7310101; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7310101 — Kinh tế — `api_absent` — maNganh=7310101; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K63 — 7310101A1 — Kinh tế (chuyên ngành Quản lý kinh tế) — `api_absent` — maNganh=7310101A1; no chuongTrinhDT with apDungTuKhoa=63 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7310101A1 — Kinh tế (chuyên ngành Quản lý kinh tế) — `api_absent` — maNganh=7310101A1; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7310101A1 — Kinh tế (chuyên ngành Quản lý kinh tế) — `api_absent` — maNganh=7310101A1; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7310101A1 — Kinh tế (chuyên ngành Quản lý kinh tế) — `api_absent` — maNganh=7310101A1; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7310101A1 — Kinh tế (chuyên ngành Quản lý kinh tế) — `api_absent` — maNganh=7310101A1; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7310105 — Kinh tế phát triển — `api_absent` — maNganh=7310105; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7310105 — Kinh tế phát triển — `api_absent` — maNganh=7310105; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7310105 — Kinh tế phát triển — `api_absent` — maNganh=7310105; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7310105 — Kinh tế phát triển — `api_absent` — maNganh=7310105; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K63 — 7340101 — Quản trị kinh doanh — `api_absent` — maNganh=7340101; no chuongTrinhDT with apDungTuKhoa=63 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7340101 — Quản trị kinh doanh — `api_absent` — maNganh=7340101; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7340101 — Quản trị kinh doanh — `api_absent` — maNganh=7340101; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K63 — 7340101A — Quản trị kinh doanh (TT-CLC) — `api_absent` — maNganh=7340101A; no chuongTrinhDT with apDungTuKhoa=63 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7340101A — Quản trị kinh doanh (TT-CLC) — `api_absent` — maNganh=7340101A; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7340101A — Quản trị kinh doanh (TT-CLC) — `api_absent` — maNganh=7340101A; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7340101A — Quản trị kinh doanh (TT-CLC) — `api_absent` — maNganh=7340101A; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7340101A — Quản trị kinh doanh (TT-CLC) — `api_absent` — maNganh=7340101A; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7340115 — Marketing — `api_absent` — maNganh=7340115; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7340115 — Marketing — `api_absent` — maNganh=7340115; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7340115 — Marketing — `api_absent` — maNganh=7340115; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7340121 — Kinh doanh thương mại — `api_absent` — maNganh=7340121; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7340121 — Kinh doanh thương mại — `api_absent` — maNganh=7340121; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7340121 — Kinh doanh thương mại — `api_absent` — maNganh=7340121; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7340201 — Tài chính - Ngân hàng — `api_absent` — maNganh=7340201; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7340201 — Tài chính - Ngân hàng — `api_absent` — maNganh=7340201; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K63 — 7340201A — Tài chính - Ngân hàng (chuyên ngành Công nghệ tài chính) — `api_absent` — maNganh=7340201A; no chuongTrinhDT with apDungTuKhoa=63 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7340201A — Tài chính - Ngân hàng (chuyên ngành Công nghệ tài chính) — `api_absent` — maNganh=7340201A; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7340201A — Tài chính - Ngân hàng (chuyên ngành Công nghệ tài chính) — `api_absent` — maNganh=7340201A; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7340201A — Tài chính - Ngân hàng (chuyên ngành Công nghệ tài chính) — `api_absent` — maNganh=7340201A; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7340201A — Tài chính - Ngân hàng (chuyên ngành Công nghệ tài chính) — `api_absent` — maNganh=7340201A; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K63 — 7340301 — Kế toán — `api_absent` — maNganh=7340301; no chuongTrinhDT with apDungTuKhoa=63 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7340301 — Kế toán — `api_absent` — maNganh=7340301; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7340301 — Kế toán — `api_absent` — maNganh=7340301; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K63 — 7340302 — Kiểm toán — `api_absent` — maNganh=7340302; no chuongTrinhDT with apDungTuKhoa=63 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7340302 — Kiểm toán — `api_absent` — maNganh=7340302; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7340302 — Kiểm toán — `api_absent` — maNganh=7340302; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7340405 — Hệ thống thông tin quản lý — `api_absent` — maNganh=7340405; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7340405 — Hệ thống thông tin quản lý — `api_absent` — maNganh=7340405; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7340405 — Hệ thống thông tin quản lý — `api_absent` — maNganh=7340405; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7340405 — Hệ thống thông tin quản lý — `api_absent` — maNganh=7340405; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K63 — 7380101 — Luật — `api_absent` — maNganh=7380101; no chuongTrinhDT with apDungTuKhoa=63 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7380101 — Luật — `api_absent` — maNganh=7380101; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7380101 — Luật — `api_absent` — maNganh=7380101; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7380101 — Luật — `api_absent` — maNganh=7380101; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K63 — 7420201 — Công nghệ sinh học — `api_absent` — maNganh=7420201; no chuongTrinhDT with apDungTuKhoa=63 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7420201 — Công nghệ sinh học — `api_absent` — maNganh=7420201; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7420201 — Công nghệ sinh học — `api_absent` — maNganh=7420201; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K63 — 7480101 — Khoa học máy tính — `api_absent` — maNganh=7480101; no chuongTrinhDT with apDungTuKhoa=63 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7480101 — Khoa học máy tính — `api_absent` — maNganh=7480101; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7480101 — Khoa học máy tính — `api_absent` — maNganh=7480101; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7480101 — Khoa học máy tính — `api_absent` — maNganh=7480101; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K63 — 7480201 — Công nghệ thông tin — `api_absent` — maNganh=7480201; no chuongTrinhDT with apDungTuKhoa=63 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7480201 — Công nghệ thông tin — `api_absent` — maNganh=7480201; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7480201 — Công nghệ thông tin — `api_absent` — maNganh=7480201; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7510202 — Công nghệ chế tạo máy — `api_absent` — maNganh=7510202; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7510202 — Công nghệ chế tạo máy — `api_absent` — maNganh=7510202; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7510202 — Công nghệ chế tạo máy — `api_absent` — maNganh=7510202; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7510202 — Công nghệ chế tạo máy — `api_absent` — maNganh=7510202; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7520103 — Kỹ thuật cơ khí — `api_absent` — maNganh=7520103; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7520114 — Kỹ thuật cơ điện tử — `api_absent` — maNganh=7520114; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7520114 — Kỹ thuật cơ điện tử — `api_absent` — maNganh=7520114; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7520114 — Kỹ thuật cơ điện tử — `api_absent` — maNganh=7520114; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7520115 — Kỹ thuật nhiệt — `api_absent` — maNganh=7520115; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7520115 — Kỹ thuật nhiệt — `api_absent` — maNganh=7520115; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7520115 — Kỹ thuật nhiệt — `api_absent` — maNganh=7520115; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K63 — 7520115MP — Kỹ thuật cơ điện lạnh (chương trình MP - NTU) — `api_absent` — maNganh=7520115MP; no chuongTrinhDT with apDungTuKhoa=63 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7520115MP — Kỹ thuật cơ điện lạnh (chương trình MP - NTU) — `api_absent` — maNganh=7520115MP; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7520115MP — Kỹ thuật cơ điện lạnh (chương trình MP - NTU) — `api_absent` — maNganh=7520115MP; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7520115MP — Kỹ thuật cơ điện lạnh (chương trình MP - NTU) — `api_absent` — maNganh=7520115MP; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7520115MP — Kỹ thuật cơ điện lạnh (chương trình MP - NTU) — `api_absent` — maNganh=7520115MP; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7520116 — Kỹ thuật cơ khí động lực — `api_absent` — maNganh=7520116; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7520116 — Kỹ thuật cơ khí động lực — `api_absent` — maNganh=7520116; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7520116 — Kỹ thuật cơ khí động lực — `api_absent` — maNganh=7520116; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7520116 — Kỹ thuật cơ khí động lực — `api_absent` — maNganh=7520116; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K63 — 7520122 — Kỹ thuật tàu thủy — `api_absent` — maNganh=7520122; no chuongTrinhDT with apDungTuKhoa=63 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7520122 — Kỹ thuật tàu thủy — `api_absent` — maNganh=7520122; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7520122 — Kỹ thuật tàu thủy — `api_absent` — maNganh=7520122; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7520122 — Kỹ thuật tàu thủy — `api_absent` — maNganh=7520122; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7520130 — Kỹ thuật ô tô — `api_absent` — maNganh=7520130; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7520130 — Kỹ thuật ô tô — `api_absent` — maNganh=7520130; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7520130 — Kỹ thuật ô tô — `api_absent` — maNganh=7520130; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7520201 — Kỹ thuật điện — `api_absent` — maNganh=7520201; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7520201 — Kỹ thuật điện — `api_absent` — maNganh=7520201; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7520201 — Kỹ thuật điện — `api_absent` — maNganh=7520201; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7520201 — Kỹ thuật điện — `api_absent` — maNganh=7520201; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K63 — 7520206 — Kỹ thuật biển — `api_absent` — maNganh=7520206; no chuongTrinhDT with apDungTuKhoa=63 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7520206 — Kỹ thuật biển — `api_absent` — maNganh=7520206; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7520206 — Kỹ thuật biển — `api_absent` — maNganh=7520206; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7520206 — Kỹ thuật biển — `api_absent` — maNganh=7520206; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K63 — 7520216 — Kỹ thuật điều khiển và tự động hóa — `api_absent` — maNganh=7520216; no chuongTrinhDT with apDungTuKhoa=63 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7520216 — Kỹ thuật điều khiển và tự động hóa — `api_absent` — maNganh=7520216; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7520216 — Kỹ thuật điều khiển và tự động hóa — `api_absent` — maNganh=7520216; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7520216 — Kỹ thuật điều khiển và tự động hóa — `api_absent` — maNganh=7520216; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7520301 — Kỹ thuật hoá học — `api_absent` — maNganh=7520301; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7520301 — Kỹ thuật hoá học — `api_absent` — maNganh=7520301; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7520301 — Kỹ thuật hoá học — `api_absent` — maNganh=7520301; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7520301 — Kỹ thuật hoá học — `api_absent` — maNganh=7520301; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7520320 — Kỹ thuật môi trường — `api_absent` — maNganh=7520320; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7520320 — Kỹ thuật môi trường — `api_absent` — maNganh=7520320; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7520320 — Kỹ thuật môi trường — `api_absent` — maNganh=7520320; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7540101 — Công nghệ thực phẩm — `api_absent` — maNganh=7540101; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7540101 — Công nghệ thực phẩm — `api_absent` — maNganh=7540101; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7540101 — Công nghệ thực phẩm — `api_absent` — maNganh=7540101; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K63 — 7540105 — Công nghệ chế biến thủy sản — `api_absent` — maNganh=7540105; no chuongTrinhDT with apDungTuKhoa=63 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7540105 — Công nghệ chế biến thủy sản — `api_absent` — maNganh=7540105; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7540105 — Công nghệ chế biến thủy sản — `api_absent` — maNganh=7540105; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K63 — 7540106 — Ngành Đảm bảo chất lượng và an toàn thực phẩm — `api_absent` — maNganh=7540106; no chuongTrinhDT with apDungTuKhoa=63 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7540106 — Ngành Đảm bảo chất lượng và an toàn thực phẩm — `api_absent` — maNganh=7540106; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7540106 — Ngành Đảm bảo chất lượng và an toàn thực phẩm — `api_absent` — maNganh=7540106; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7540106 — Ngành Đảm bảo chất lượng và an toàn thực phẩm — `api_absent` — maNganh=7540106; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7580201 — Kỹ thuật xây dựng — `api_absent` — maNganh=7580201; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7580201 — Kỹ thuật xây dựng — `api_absent` — maNganh=7580201; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7580201 — Kỹ thuật xây dựng — `api_absent` — maNganh=7580201; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K63 — 7580205 — Kỹ thuật xây dựng công trình giao thông — `api_absent` — maNganh=7580205; no chuongTrinhDT with apDungTuKhoa=63 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7580205 — Kỹ thuật xây dựng công trình giao thông — `api_absent` — maNganh=7580205; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7580205 — Kỹ thuật xây dựng công trình giao thông — `api_absent` — maNganh=7580205; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7580205 — Kỹ thuật xây dựng công trình giao thông — `api_absent` — maNganh=7580205; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K63 — 7620301 — Nuôi trồng thủy sản — `api_absent` — maNganh=7620301; no chuongTrinhDT with apDungTuKhoa=63 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7620301 — Nuôi trồng thủy sản — `api_absent` — maNganh=7620301; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7620301 — Nuôi trồng thủy sản — `api_absent` — maNganh=7620301; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7620301 — Nuôi trồng thủy sản — `api_absent` — maNganh=7620301; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7620303 — Khoa học thủy sản — `api_absent` — maNganh=7620303; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7620303 — Khoa học thủy sản — `api_absent` — maNganh=7620303; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7620303 — Khoa học thủy sản — `api_absent` — maNganh=7620303; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7620304 — Khai thác thủy sản — `api_absent` — maNganh=7620304; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7620304 — Khai thác thủy sản — `api_absent` — maNganh=7620304; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7620304 — Khai thác thủy sản — `api_absent` — maNganh=7620304; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7620305 — Quản lý thủy sản — `api_absent` — maNganh=7620305; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7620305 — Quản lý thủy sản — `api_absent` — maNganh=7620305; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7620305 — Quản lý thủy sản — `api_absent` — maNganh=7620305; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7810103 — Quản trị dịch vụ du lịch và lữ hành — `api_absent` — maNganh=7810103; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7810103 — Quản trị dịch vụ du lịch và lữ hành — `api_absent` — maNganh=7810103; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K63 — 7810103P — Quản trị dịch vụ du lịch và lữ hành (song ngữ Pháp-Việt) — `api_absent` — maNganh=7810103P; no chuongTrinhDT with apDungTuKhoa=63 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7810103P — Quản trị dịch vụ du lịch và lữ hành (song ngữ Pháp-Việt) — `api_absent` — maNganh=7810103P; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7810103P — Quản trị dịch vụ du lịch và lữ hành (song ngữ Pháp-Việt) — `api_absent` — maNganh=7810103P; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7810103P — Quản trị dịch vụ du lịch và lữ hành (song ngữ Pháp-Việt) — `api_absent` — maNganh=7810103P; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7810103P — Quản trị dịch vụ du lịch và lữ hành (song ngữ Pháp-Việt) — `api_absent` — maNganh=7810103P; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K63 — 7810201 — Quản trị Khách sạn — `api_absent` — maNganh=7810201; no chuongTrinhDT with apDungTuKhoa=63 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7810201 — Quản trị Khách sạn — `api_absent` — maNganh=7810201; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7810201 — Quản trị Khách sạn — `api_absent` — maNganh=7810201; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K63 — 7810201PHE — Quản trị khách sạn (TT-CLC) — `api_absent` — maNganh=7810201PHE; no chuongTrinhDT with apDungTuKhoa=63 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7810201PHE — Quản trị khách sạn (TT-CLC) — `api_absent` — maNganh=7810201PHE; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7810201PHE — Quản trị khách sạn (TT-CLC) — `api_absent` — maNganh=7810201PHE; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7810201PHE — Quản trị khách sạn (TT-CLC) — `api_absent` — maNganh=7810201PHE; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7810201PHE — Quản trị khách sạn (TT-CLC) — `api_absent` — maNganh=7810201PHE; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — 7840106 — Khoa học hàng hải — `api_absent` — maNganh=7840106; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — 7840106 — Khoa học hàng hải — `api_absent` — maNganh=7840106; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — 7840106 — Khoa học hàng hải — `api_absent` — maNganh=7840106; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K67 — 7840106 — Khoa học hàng hải — `api_absent` — maNganh=7840106; no chuongTrinhDT with apDungTuKhoa=67 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K63 — GDTC — Chương trình GDTC — `api_absent` — maNganh=GDTC; no chuongTrinhDT with apDungTuKhoa=63 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — GDTC — Chương trình GDTC — `api_absent` — maNganh=GDTC; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — GDTC — Chương trình GDTC — `api_absent` — maNganh=GDTC; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — GDTC — Chương trình GDTC — `api_absent` — maNganh=GDTC; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K68 — GDTC — Chương trình GDTC — `api_absent` — maNganh=GDTC; no chuongTrinhDT with apDungTuKhoa=68 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K63 — GDTQ — Chương trình GDTQ — `api_absent` — maNganh=GDTQ; no chuongTrinhDT with apDungTuKhoa=63 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K64 — GDTQ — Chương trình GDTQ — `api_absent` — maNganh=GDTQ; no chuongTrinhDT with apDungTuKhoa=64 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K65 — GDTQ — Chương trình GDTQ — `api_absent` — maNganh=GDTQ; no chuongTrinhDT with apDungTuKhoa=65 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K66 — GDTQ — Chương trình GDTQ — `api_absent` — maNganh=GDTQ; no chuongTrinhDT with apDungTuKhoa=66 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc
+- K68 — GDTQ — Chương trình GDTQ — `api_absent` — maNganh=GDTQ; no chuongTrinhDT with apDungTuKhoa=68 — https://ctdt.ntu.edu.vn/api/curriculum/publicCTDT/nganhDaoTaos/daihoc

@@ -1,0 +1,604 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_Head1"><meta http-equiv="Content-Type" content="text/html;&#32;charset=UTF-8" /><meta content="IE=edge,chrome=1,firefox=1" /><meta name="viewport" content="width=device-width,&#32;initial-scale=1,shrink-to-fit=no" /><title>
+	
+        Trung tâm Thông tin và Tư liệu trường Đại Học Nha Trang
+    
+</title><link rel="shortcut&#32;icon" href="#" /><link href="../App_Themes/ntu.ico" rel="shortcut&#32;icon" type="image/x-icon" /><link href="../Content/bootstrap.min.css" rel="stylesheet" /><link href="../Content/font-awesome.min.css" rel="stylesheet" />
+
+    <script src="../Scripts/jquery-3.6.4.min.js" type="text/javascript"></script>
+    <script src="../Scripts/Umd/popper.min.js" type="text/javascript"></script>
+    <script src="../Scripts/bootstrap.min.js" type="text/javascript"></script>
+
+    <link href="../Content/dataTables.bootstrap4.min.css" rel="stylesheet" /><link href="../Content/responsive.bootstrap4.min.css" rel="stylesheet" />
+    <script src="../js/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script src="../js/dataTables.bootstrap4.min.js" type="text/javascript"></script>
+    <script src="../js/dataTables.responsive.min.js" type="text/javascript"></script>
+    <script src="../js/responsive.bootstrap4.min.js" type="text/javascript"></script>
+
+    <script src="../js/bibCart.js" type="text/javascript"></script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if ($('#table-admin').length) {
+                $('#table-admin').DataTable({
+                    "paging": false,
+                    "ordering": false,
+                    "info": false,
+                    "searching": false
+                });
+            }
+            if ($('#table-admin2').length) {
+                $('#table-admin2').DataTable({
+                    "paging": false,
+                    "ordering": false,
+                    "info": false,
+                    "searching": false
+                });
+            }
+            if ($('#table-admin3').length) {
+                $('#table-admin3').DataTable({
+                    "paging": false,
+                    "ordering": false,
+                    "info": false,
+                    "searching": false
+                });
+            }
+            if ($('#table-admin4').length) {
+                $('#table-admin4').DataTable({
+                    "paging": false,
+                    "ordering": false,
+                    "info": false,
+                    "searching": false
+                });
+            }
+        });
+    </script>
+
+    
+
+<link href="../App_Themes/ntu/AdminLTE.min.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/ntu/animate.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/ntu/boxes.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/ntu/Calendar.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/ntu/comment.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/ntu/content-slider.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/ntu/dataTables.bootstrap4.min.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/ntu/EJournal.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/ntu/font_greatVibes.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/ntu/Login.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/ntu/main.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/ntu/menu.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/ntu/menuflyout.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/ntu/menu-navbar.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/ntu/newbook-slider.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/ntu/photo-gallery.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/ntu/photoslidershow.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/ntu/responsive.bootstrap4.min.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/ntu/WebParts.css" type="text/css" rel="stylesheet" /><meta name="description" /><meta name="keywords" /></head>
+<body>
+
+
+    <form method="post" action="./default.aspx?mnuid=145" id="aspnetForm">
+<input type="hidden" name="__WPPS" id="__WPPS" value="s" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+
+<script src="/ScriptResource.axd?d=uHIkleVeDJf4xS50Krz-yLndVJlkLhBs0DX8rQryrLt01qJeQrqMprOJgJAJfvTJUg5MKSzmtINC0yURN-1UwLJjdRqMkRCjrIUsEPW7BibLzpi1i-mHAVG08napmUnex_iRMU69hUiPATMJExsSqISbYrrudc1924esiOPWdLA1&amp;t=ffffffffbec1863d" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="E374D22B" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="XgeR/BYm0N1TlO/D+z0uFvOoMfkHfH7RiFfhzovTAuRp+1WNRNDHn9MIsU91xi3y8vVJqmomRpzGRW2aujzQV6nS5TnFxC6dKIfj95FiUf6cODOAqTDdd/h33x2DFlnLkbvMSddU80APaBKFc6RgPjEoz4xGz1h+mU0mR+KZpqSkBWbpyoUTptHD1QllmbraVuIRcAEKMbu9xx8jO7Yx1nQxDLRUH2Nc0MAHYiquiJrHTUrOe/LxnbhE0dUKwTi0Q5wwXWqg3DY0ya7pGWkAGOof0MSL9cwYFOzQbY5W+aWjMcz2bJqTWXt1aoPF0N57KEYSdquiKLxd4bSEsfRBJIWf5PaNIn/DlINow/z3jUjU8YNTaTs9vlRQnNtHYNYfmcHTf7BXTiH1dT9BfrLMOgb33wbBqdvkLOF1RIMQWsIoq8cQhye5pHNZB+k5wQ9gN0OsBTOnYurZzXgqEn1KcLiUavYc/XVdwOZe5G8K3NRf2cv79DmDKktNG72Ze61zJzPwuZYE4GBPuY3a+z2QRH5gXiDhBSQSuQct5suSvekgzvLIhyq9xm11zKXrIEeUlONDp4ll/fOYGeguhPuVqbxdNf+iIX3nahCPb5bS7+navwQfXWS1zfAAi/yiMvBJF4tlwtcvw6GltX+KF5M7vTRM8iE5zfpgrVbn86kM3RujJHGNNtlzzIt2HQiFiX9a5ypoGy3NRHSKmTjKCD/QS37MOjd2ecdAz/yefcREQ1pN21PVgvjZBvMe+PYaMx+94hAVjHLAzQzlI8p5H4+foMTctpRMZ/H4KGRTCXwtUkzAajSuasngVWxQxvC5sKqcyct+TOZuBulrJDNQkPOyWEXRjc6C836QOKLRNk0qyXCsFl5XFJfomrE3nlKZZpptkNtO+owsnWrJ0zmbPGN/O81ELk4HDuRPRfbZSHGIhe4kf+wQHG0sRydtruFHt2rd2WKWOMM/Tsldq0Ql4nisyg==" />
+        
+        
+        <div id="ctl00_divWpMan">
+            
+
+
+
+<!--Toolbar-->
+
+            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+
+        <div class="header-top-bar">
+            <div class="container-fluid d-flex justify-content-between align-items-center" style="padding: 0 5%;">
+                <div class="icon-bar">
+                    <a class="ml-2" href="https://ntu.edu.vn" style="align-items: center; display: flex;" target="_blank">
+                        <img src="../App_themes/ntu/images/home_NT.png" border="0" alt="NTU" width="20px;" />
+                        Trường Đại học Nha Trang</a>
+                </div>
+                <div class="header-top-bar-right ml-auto me-2 d-flex flex-row align-items-center h-100">
+                    <div class="justify-content-center align-items-center h-100 pr-2 d-none d-sm-block">
+                        <a href="https://moet.gov.vn/" alt="Bộ Giáo dục và Đào tạo" target="_blank">Bộ GD&ĐT</a>
+                    </div>
+                    <div class="justify-content-center align-items-center h-100 pr-2 d-none d-sm-block">
+                        <a href="https://qldt.ntu.edu.vn/tracuuvanbangchungchi.html" alt="Tra cứu văn bằng" target="_blank">Tra cứu văn bằng</a>
+                    </div>
+                    <div class="justify-content-center align-items-center h-100 pr-2 d-none d-sm-block">
+                        <a href="https://elearning.ntu.edu.vn/" alt="E-Learning" target="_blank">E-Learning </a>
+                    </div>
+                    <div class="justify-content-center align-items-center h-100 pr-2 d-none d-sm-block">
+                        <a href="https://eoffice.ntu.edu.vn/" alt="E-Office" target="_blank">E-Office</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-100">
+            <div id="banner">
+                <div class="master-banner row px-0">
+                    <img src="../App_themes/ntu/images/banner_NTU1.png" border="0" alt="NTU" class="banner" />
+                </div>
+                <div class="banner-mobile ">
+                    <a href="https://thuvien.ntu.edu.vn">
+                        <img src="../App_themes/ntu/images/banner_NTU_mobile.jpg" border="0" alt="NTU" width="100%" /></a>
+                </div>
+                <div class="language-flag">
+                    <span>
+                        
+                        <a id="ctl00_btnSelectEnglish" href="javascript:__doPostBack(&#39;ctl00$btnSelectEnglish&#39;,&#39;&#39;)"><img id="ctl00_EnglishFlag" src="..\App_Themes\ntu\images\English.png" /></a>
+                    </span>
+                </div>
+            </div>
+
+            <div class="clr"></div>
+        </div>
+
+
+
+        <div id="main-menu" class="w-100">
+            <div style="width: 100%">
+                <table cellspacing="0" cellpadding="0" border="0" id="ctl00_WebPartZoneTopMenu" bgcolor="Transparent" height="100%" width="100%">
+	<tr>
+		<td height="100%"><table cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
+			<tr>
+				<td><table cellspacing="0" cellpadding="2" border="0" bgcolor="White" width="100%">
+					<tr>
+						<td class="NoPaddingAndTransparent" cellspacing="0" cellpadding="0" bgcolor="White" width="100%">
+
+
+<div id="menunavbar" class="mx-auto px-0 py-0">
+    <nav class="navbar navbar-expand-lg navbar-light px-0 py-0 shadow-sm">
+        <div class="w-100 main row justify-content-between" >
+             <a id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpMenuNavbar1_MenuNavbar1_linkHomePage" href="javascript:__doPostBack(&#39;ctl00$WebPartManagerPanel1$WebPartManagerMain$gwpMenuNavbar1$MenuNavbar1$linkHomePage&#39;,&#39;&#39;)" style="font-size:2rem;"><img id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpMenuNavbar1_MenuNavbar1_HomeVCB" src="..\App_Themes\ntu\images\Home1.png" style="width:31px;padding-top: 3px;" /></a>
+            <button type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler float-right">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto m-0">
+                    <li class='nav-item active dropdown'><a class='dropdown-item d-inline-block text-uppercase px-2 py-2 w-90 text-nowrap' href='/introduction.aspx?mnuid=121' >Giới thiệu</a><a id='dropdownMenu0' href='#' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false' class='nav-link dropdown-toggle d-lg-none d-sm-inline-block float-right dropdown-icon pl-1 pr-0 py-2 w-10'></a><ul aria-labelledby='dropdownMenu0' class='dropdown-menu dropdown-menu-level1 border-0 shadow p-0' ><li><a href='/introduction.aspx?mnuid=121&catid=1000&contentid=4' class='dropdown-item px-2 py-2'>Chức năng nhiệm vụ</a></li><li class='dropdown-divider m-0'></li><li><a href='/introduction.aspx?mnuid=121&catid=1000&contentid=259' class='dropdown-item px-2 py-2'>Nhân sự</a></li><li class='dropdown-divider m-0'></li><li><a href='/introduction.aspx?mnuid=121&catid=1000&contentid= 175' class='dropdown-item px-2 py-2'>Thời gian làm việc</a></li><li class='dropdown-divider m-0'></li><li><a href='/introduction.aspx?mnuid=121&catid=1000&contentid=2' class='dropdown-item px-2 py-2'>Giới thiệu chung</a></li><li class='dropdown-divider m-0'></li><li><a href='/introduction.aspx?mnuid=121&catid=1000&contentid=380' class='dropdown-item px-2 py-2'>Sơ đồ Thư viện</a></li><li class='dropdown-divider m-0'></li></ul></li><li class='nav-item active dropdown'><a class='dropdown-item d-inline-block text-uppercase px-2 py-2 w-90 text-nowrap' href='/opac/headingsearch.aspx?mnuid=141' >Tra cứu</a><a id='dropdownMenu1' href='#' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false' class='nav-link dropdown-toggle d-lg-none d-sm-inline-block float-right dropdown-icon pl-1 pr-0 py-2 w-10'></a><ul aria-labelledby='dropdownMenu1' class='dropdown-menu dropdown-menu-level1 border-0 shadow p-0' ><li><a href='/opac/headingsearch.aspx?mnuid=141' class='dropdown-item px-2 py-2'>Tìm lướt</a></li><li class='dropdown-divider m-0'></li><li><a href='/opac/keywordsearch.aspx?mnuid=142' class='dropdown-item px-2 py-2'>Tìm Từ khóa</a></li><li class='dropdown-divider m-0'></li><li><a href='/opac/expertsearch.aspx?mnuid=143' class='dropdown-item px-2 py-2'>Tìm Chuyên gia</a></li><li class='dropdown-divider m-0'></li><li><a href='/opac/fulltextsearch.aspx?mnuid=144' class='dropdown-item px-2 py-2'>Tìm Toàn văn</a></li><li class='dropdown-divider m-0'></li><li><a href='/jetportal/default.aspx?mnuid=145' class='dropdown-item px-2 py-2'>Tra cứu liên thư viện</a></li><li class='dropdown-divider m-0'></li><li><a href='/opac/default.aspx?mnuid=146' class='dropdown-item px-2 py-2'>Tài Liệu Mới</a></li><li class='dropdown-divider m-0'></li><li><a href='/contentbrowser.aspx?contentid=172' class='dropdown-item px-2 py-2'>Cơ sở dữ liệu mở</a></li><li class='dropdown-divider m-0'></li></ul></li><li class='nav-item active'><a class='nav-link  text-uppercase px-2 py-2 text-nowrap' href='/ejournal/default.aspx?mnuid=32' >Tạp chí</a></li><li class='nav-item active dropdown'><a class='dropdown-item d-inline-block text-uppercase px-2 py-2 w-90 text-nowrap' href='/patron/default.aspx?mnuid=21' >Người dùng</a><a id='dropdownMenu3' href='#' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false' class='nav-link dropdown-toggle d-lg-none d-sm-inline-block float-right dropdown-icon pl-1 pr-0 py-2 w-10'></a><ul aria-labelledby='dropdownMenu3' class='dropdown-menu dropdown-menu-level1 border-0 shadow p-0' ><li><a href='/contentbrowser.aspx?contentid=439' class='dropdown-item px-2 py-2'>Hướng dẫn (Video)</a></li><li class='dropdown-divider m-0'></li><li><a href='/contentbrowser.aspx?contentid=257' class='dropdown-item px-2 py-2'>Hướng dẫn sử dụng</a></li><li class='dropdown-divider m-0'></li><li><a href='/sendrequest.aspx?mnuid=164' class='dropdown-item px-2 py-2'>Gửi yêu cầu</a></li><li class='dropdown-divider m-0'></li><li><a href='/contentbrowser.aspx?contentid=218' class='dropdown-item px-2 py-2'>Nội quy - Chính sách</a></li><li class='dropdown-divider m-0'></li></ul></li><li class='nav-item active'><a class='nav-link  text-uppercase px-2 py-2 text-nowrap' href='/forum/default.aspx?mnuid=17' >Diễn Đàn</a></li><li class='nav-item active'><a class='nav-link  text-uppercase px-2 py-2 text-nowrap' href='/sendrequest.aspx?mnuid=164' >Gửi yêu cầu</a></li><li class='nav-item active dropdown'><a class='dropdown-item d-inline-block text-uppercase px-2 py-2 w-90 text-nowrap' href='/contentbrowser.aspx?contentid=375' >DỊCH VỤ THƯ VIỆN</a><a id='dropdownMenu6' href='#' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false' class='nav-link dropdown-toggle d-lg-none d-sm-inline-block float-right dropdown-icon pl-1 pr-0 py-2 w-10'></a><ul aria-labelledby='dropdownMenu6' class='dropdown-menu dropdown-menu-level1 border-0 shadow p-0' ><li><a href='/contentbrowser.aspx?contentid=375' class='dropdown-item px-2 py-2'>Dịch vụ miễn phí</a></li><li class='dropdown-divider m-0'></li><li><a href='/contentbrowser.aspx?contentid=378' class='dropdown-item px-2 py-2'>Dịch vụ có phí</a></li><li class='dropdown-divider m-0'></li></ul></li>
+                </ul> <div class="clearfix"></div>
+                
+                <ul class="nav navbar-nav navbar-right text-white mr-auto d-lg-block d-sm-block m-0 p-0">
+                    <div id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpMenuNavbar1_MenuNavbar1_divlogin" class="login-menu&#32;p-0&#32;px-2">
+                        <a id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpMenuNavbar1_MenuNavbar1_UserLogin" class="nav-link&#32;font-weight-bold&#32;py-0" href="javascript:__doPostBack(&#39;ctl00$WebPartManagerPanel1$WebPartManagerMain$gwpMenuNavbar1$MenuNavbar1$UserLogin&#39;,&#39;&#39;)"><span class='fa fa-sign-in'></span> Đăng nhập</a>
+                    </div>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        // ------------------------------------------------------- //
+        // Multi Level dropdowns
+        // ------------------------------------------------------ //
+        $("ul.dropdown-menu [data-toggle='dropdown']").on("click", function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+
+            $(this).siblings().toggleClass("show");
+
+
+            if (!$(this).next().hasClass('show')) {
+                $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+            }
+            $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+                $('.dropdown-submenu .show').removeClass("show");
+            });
+
+        });
+    });
+</script>
+</td>
+					</tr>
+				</table></td>
+			</tr><tr>
+				<td height="100%"></td>
+			</tr>
+		</table></td>
+	</tr>
+</table>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+
+        <div id="master-containter" class="row">
+            
+    <div class="body-container mx-auto">
+        <div class="row ml-0 mr-0">
+                <div class="col-lg-3 pl-1 pr-1">
+                    <div class="w-100">
+                        <div class="zone-space-top"></div>
+                        <table cellspacing="0" cellpadding="0" border="0" id="ctl00_BodyPlaceHolder_WebPartZone1" height="100%" width="100%">
+	<tr>
+		<td height="100%"><table cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
+			<tr>
+				<td><table cellspacing="0" cellpadding="2" border="0" bgcolor="White" width="100%">
+					<tr>
+						<td class="NoPaddingAndTransparent" cellspacing="0" cellpadding="0" bgcolor="White" width="100%"><div class="box box-solid box-color1"><div class="box-header"><div class="box-header-left"></div><div class="box-header-center">CSDL</div><div class="box-header-right"></div></div><div class="box-body"> 
+
+<a href="#ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpJetTargets1_JetTargets1_JetCategoryTree_SkipLink">Skip Navigation Links.</a><div id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpJetTargets1_JetTargets1_JetCategoryTree" class="jet-target"><font face="sans-serif;Verdana;Tahoma" size="4">
+							<table cellpadding="0" cellspacing="0">
+								<tr>
+									<td><img src="/WebResource.axd?d=Vnw6Nul5Gi8dLBSg8ZsULdvQhdqzKpxaIMWXMK8ZLrOmWkRYLb0jpvCOakbcvKB5j94gMDPV0M1yx1FiE5eON2V1K2uNxPvvJPRVpFzukok1&amp;t=639191096600000000" alt="" /></td><td nowrap="nowrap" bgcolor="#E0E0E0"><a href="javascript:__doPostBack(&#39;ctl00$WebPartManagerPanel1$WebPartManagerMain$gwpJetTargets1$JetTargets1$JetCategoryTree&#39;,&#39;s9200&#39;)" id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpJetTargets1_JetTargets1_JetCategoryTreet0"><font face="sans-serif;Verdana;Tahoma" size="4">Tất cả</font></a></td>
+								</tr>
+							</table><table cellpadding="0" cellspacing="0">
+								<tr>
+									<td><img src="/WebResource.axd?d=Vnw6Nul5Gi8dLBSg8ZsULdvQhdqzKpxaIMWXMK8ZLrOmWkRYLb0jpvCOakbcvKB5j94gMDPV0M1yx1FiE5eON2V1K2uNxPvvJPRVpFzukok1&amp;t=639191096600000000" alt="" /></td><td nowrap="nowrap"><a href="javascript:__doPostBack(&#39;ctl00$WebPartManagerPanel1$WebPartManagerMain$gwpJetTargets1$JetTargets1$JetCategoryTree&#39;,&#39;s9210&#39;)" id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpJetTargets1_JetTargets1_JetCategoryTreet1"><font face="sans-serif;Verdana;Tahoma" size="4">Quốc tế(2)</font></a></td>
+								</tr>
+							</table><table cellpadding="0" cellspacing="0">
+								<tr>
+									<td><img src="/WebResource.axd?d=Vnw6Nul5Gi8dLBSg8ZsULdvQhdqzKpxaIMWXMK8ZLrOmWkRYLb0jpvCOakbcvKB5j94gMDPV0M1yx1FiE5eON2V1K2uNxPvvJPRVpFzukok1&amp;t=639191096600000000" alt="" /></td><td nowrap="nowrap"><a href="javascript:__doPostBack(&#39;ctl00$WebPartManagerPanel1$WebPartManagerMain$gwpJetTargets1$JetTargets1$JetCategoryTree&#39;,&#39;s9220&#39;)" id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpJetTargets1_JetTargets1_JetCategoryTreet2"><font face="sans-serif;Verdana;Tahoma" size="4">Khối nhà nước(2)</font></a></td>
+								</tr>
+							</table><table cellpadding="0" cellspacing="0">
+								<tr>
+									<td><img src="/WebResource.axd?d=Vnw6Nul5Gi8dLBSg8ZsULdvQhdqzKpxaIMWXMK8ZLrOmWkRYLb0jpvCOakbcvKB5j94gMDPV0M1yx1FiE5eON2V1K2uNxPvvJPRVpFzukok1&amp;t=639191096600000000" alt="" /></td><td nowrap="nowrap"><a href="javascript:__doPostBack(&#39;ctl00$WebPartManagerPanel1$WebPartManagerMain$gwpJetTargets1$JetTargets1$JetCategoryTree&#39;,&#39;s9230&#39;)" id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpJetTargets1_JetTargets1_JetCategoryTreet3"><font face="sans-serif;Verdana;Tahoma" size="4">Giáo dục(5)</font></a></td>
+								</tr>
+							</table>
+						</font></div><a id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpJetTargets1_JetTargets1_JetCategoryTree_SkipLink"></a>
+   
+	        			        
+
+</div><div class="box-footer"></div></div></td>
+					</tr>
+				</table></td>
+			</tr><tr>
+				<td><table cellspacing="0" cellpadding="2" border="0" bgcolor="White" width="100%">
+					<tr>
+						<td class="NoPaddingAndTransparent" cellspacing="0" cellpadding="0" bgcolor="White" width="100%"><div class="box box-solid box-color1"><div class="box-header"><div class="box-header-left"></div><div class="box-header-center">Tình trạng</div><div class="box-header-right"></div></div><div class="box-body"> 
+<div class="jet-target-status m-1" style="font-size:20px;">
+    
+    <a id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpJetTargetStatus1_JetTargetStatus1_hideDbInfo" href="javascript:__doPostBack(&#39;ctl00$WebPartManagerPanel1$WebPartManagerMain$gwpJetTargetStatus1$JetTargetStatus1$hideDbInfo&#39;,&#39;&#39;)"><span class="fa fa-eye-slash"></span></a>
+</div>
+
+
+</div><div class="box-footer"></div></div></td>
+					</tr>
+				</table></td>
+			</tr><tr>
+				<td><table cellspacing="0" cellpadding="2" border="0" bgcolor="White" width="100%">
+					<tr>
+						<td class="NoPaddingAndTransparent" cellspacing="0" cellpadding="0" bgcolor="White" width="100%"><div class="box box-solid box-color1"><div class="box-header"><div class="box-header-left"></div><div class="box-header-center">Giỏ lựa chọn</div><div class="box-header-right"></div></div><div class="box-body"> 
+<div class="jet-user-cart">
+    <div class="cart-info m-1">
+        <a id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpJetUserCart1_JetUserCart1_showCartInfo" href="javascript:__doPostBack(&#39;ctl00$WebPartManagerPanel1$WebPartManagerMain$gwpJetUserCart1$JetUserCart1$showCartInfo&#39;,&#39;&#39;)"><span class="fa fa-eye"></span></a>
+        
+    </div>
+    
+
+    
+</div>
+</div><div class="box-footer"></div></div></td>
+					</tr>
+				</table></td>
+			</tr><tr>
+				<td height="100%"></td>
+			</tr>
+		</table></td>
+	</tr>
+</table>
+                    </div>
+                    <div class="w-100">
+                        <div class="zone-space-top"></div>
+                        <table cellspacing="0" cellpadding="0" border="0" id="ctl00_BodyPlaceHolder_WebPartZone2" height="100%" width="100%">
+	<tr>
+		<td height="100%"><table cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
+			<tr>
+				<td height="100%"></td>
+			</tr>
+		</table></td>
+	</tr>
+</table>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-9 pl-1 pr-1">
+                    <div class="row ml-0 mr-0">
+                        <div class="w-100">
+                            <div class="zone-space-top"></div>
+                            <table cellspacing="0" cellpadding="0" border="0" id="ctl00_BodyPlaceHolder_WebPartZone3" height="100%" width="100%">
+	<tr>
+		<td height="100%"><table cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
+			<tr>
+				<td><table cellspacing="0" cellpadding="2" border="0" bgcolor="White" width="100%">
+					<tr>
+						<td class="NoPaddingAndTransparent" cellspacing="0" cellpadding="0" bgcolor="White" width="100%"><div class="box box-solid default-box"><div class="box-body"> 
+
+
+<div class="jet-search-box m-2">
+    <div class="row ml-0 mr-0">
+        <div class="form-group row w-100">
+            <div class="col-lg-3">
+            
+            </div>
+            <div class="col-lg-9">
+                <label class="text text-primary font-weight-bold">Tất cả</label>
+                
+                <a id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpJetSearchBox1_JetSearchBox1_hideDbInfo" href="javascript:__doPostBack(&#39;ctl00$WebPartManagerPanel1$WebPartManagerMain$gwpJetSearchBox1$JetSearchBox1$hideDbInfo&#39;,&#39;&#39;)"><span class="fa fa-eye-slash"></span></a>
+                
+            </div>
+        </div>
+        <div class="form-group row w-100">
+            <div class="col-md-2 col-sm-12">
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4">
+                <select name="ctl00$WebPartManagerPanel1$WebPartManagerMain$gwpJetSearchBox1$JetSearchBox1$z_field1" id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpJetSearchBox1_JetSearchBox1_z_field1" name="field1" class="form-control">
+							<option value="@attr&#32;1=1016">M&#7885;i trư&#7901;ng</option>
+							<option value="@attr&#32;1=4">Nhan đ&#7873;</option>
+							<option value="@attr&#32;1=1003">Tác gi&#7843;</option>
+							<option value="@attr&#32;1=45">Ch&#7911; đ&#7873;</option>
+							<option value="@attr&#32;1=31">Năm xu&#7845;t b&#7843;n</option>
+							<option value="@attr&#32;1=7">ISBN</option>
+							<option value="@attr&#32;1=8">ISSN</option>
+
+						</select>
+            </div>
+            <div class="col-md-7 col-sm-8">
+                <input name="ctl00$WebPartManagerPanel1$WebPartManagerMain$gwpJetSearchBox1$JetSearchBox1$z_key1" type="text" id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpJetSearchBox1_JetSearchBox1_z_key1" class="form-control" placeholder="T&#7915;&#32;khóa&#32;tìm&#32;ki&#7871;m" onkeydown="fnTrapKD(ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpJetSearchBox1_JetSearchBox1_btnSearch,event)" />
+            </div>
+        </div>
+        <div class="form-group row w-100">
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 mb-sm-2">
+                <select name="ctl00$WebPartManagerPanel1$WebPartManagerMain$gwpJetSearchBox1$JetSearchBox1$z_op1" id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpJetSearchBox1_JetSearchBox1_z_op1" class="form-control">
+							<option selected="selected" value="@and">và</option>
+							<option value="@or">ho&#7863;c</option>
+							<option value="@not">không</option>
+
+						</select>
+            </div>
+            <div class="d-xl-none d-lg-none d-md-none d-sm-block col-sm-8"></div>
+            <div class="col-lg-3 col-md-3 col-sm-4">
+                <select name="ctl00$WebPartManagerPanel1$WebPartManagerMain$gwpJetSearchBox1$JetSearchBox1$z_field2" id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpJetSearchBox1_JetSearchBox1_z_field2" name="field2" class="form-control">
+							<option value="@attr&#32;1=1016">M&#7885;i trư&#7901;ng</option>
+							<option value="@attr&#32;1=4">Nhan đ&#7873;</option>
+							<option value="@attr&#32;1=1003">Tác gi&#7843;</option>
+							<option value="@attr&#32;1=45">Ch&#7911; đ&#7873;</option>
+							<option value="@attr&#32;1=31">Năm xu&#7845;t b&#7843;n</option>
+							<option value="@attr&#32;1=7">ISBN</option>
+							<option value="@attr&#32;1=8">ISSN</option>
+
+						</select>
+            </div>
+            <div class="col-md-7 col-sm-8">
+                <input name="ctl00$WebPartManagerPanel1$WebPartManagerMain$gwpJetSearchBox1$JetSearchBox1$z_key2" type="text" id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpJetSearchBox1_JetSearchBox1_z_key2" class="form-control" placeholder="T&#7915;&#32;khóa&#32;tìm&#32;ki&#7871;m" onkeydown="fnTrapKD(ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpJetSearchBox1_JetSearchBox1_btnSearch,event)" />
+            </div>
+        </div>
+        <div class="form-group row w-100">
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 mb-sm-2">
+                <select name="ctl00$WebPartManagerPanel1$WebPartManagerMain$gwpJetSearchBox1$JetSearchBox1$z_op2" id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpJetSearchBox1_JetSearchBox1_z_op2" class="form-control">
+							<option selected="selected" value="@and">và</option>
+							<option value="@or">ho&#7863;c</option>
+							<option value="@not">không</option>
+
+						</select>
+            </div>
+            <div class="d-xl-none d-lg-none d-md-none d-sm-block col-sm-8"></div>
+            <div class="col-lg-3 col-md-3 col-sm-4">
+                <select name="ctl00$WebPartManagerPanel1$WebPartManagerMain$gwpJetSearchBox1$JetSearchBox1$z_field3" id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpJetSearchBox1_JetSearchBox1_z_field3" name="field3" class="form-control">
+							<option value="@attr&#32;1=1016">M&#7885;i trư&#7901;ng</option>
+							<option value="@attr&#32;1=4">Nhan đ&#7873;</option>
+							<option value="@attr&#32;1=1003">Tác gi&#7843;</option>
+							<option value="@attr&#32;1=45">Ch&#7911; đ&#7873;</option>
+							<option value="@attr&#32;1=31">Năm xu&#7845;t b&#7843;n</option>
+							<option value="@attr&#32;1=7">ISBN</option>
+							<option value="@attr&#32;1=8">ISSN</option>
+
+						</select>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-8">
+                <input name="ctl00$WebPartManagerPanel1$WebPartManagerMain$gwpJetSearchBox1$JetSearchBox1$z_key3" type="text" id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpJetSearchBox1_JetSearchBox1_z_key3" class="form-control&#32;mb-sm-2" placeholder="T&#7915;&#32;khóa&#32;tìm&#32;ki&#7871;m" onkeydown="fnTrapKD(ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpJetSearchBox1_JetSearchBox1_btnSearch,event)" />
+            </div>
+            <div class="col-md-2 col-sm-12">
+                <input type="submit" name="ctl00$WebPartManagerPanel1$WebPartManagerMain$gwpJetSearchBox1$JetSearchBox1$btnSearch" value="Tìm&#32;ki&#7871;m" id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpJetSearchBox1_JetSearchBox1_btnSearch" class="btn&#32;btn-primary" />
+            </div>
+        </div>
+    </div>
+</div>
+</div><div class="box-footer"></div></div></td>
+					</tr>
+				</table></td>
+			</tr><tr>
+				<td height="100%"></td>
+			</tr>
+		</table></td>
+	</tr>
+</table>
+                        </div>
+                        <div class="w-100">
+                            <div class="zone-space-top"></div>
+                            <table cellspacing="0" cellpadding="0" border="0" id="ctl00_BodyPlaceHolder_WebPartZone4" height="100%" width="100%">
+	<tr>
+		<td height="100%"><table cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
+			<tr>
+				<td><table cellspacing="0" cellpadding="2" border="0" bgcolor="White" width="100%">
+					<tr>
+						<td class="NoPaddingAndTransparent" cellspacing="0" cellpadding="0" bgcolor="White" width="100%"><div class="box box-solid box-default"><div class="box-body"> 
+
+
+
+
+
+
+
+
+</div><div class="box-footer"></div></div></td>
+					</tr>
+				</table></td>
+			</tr><tr>
+				<td height="100%"></td>
+			</tr>
+		</table></td>
+	</tr>
+</table>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        
+    </div>
+
+
+        </div>
+
+
+        <div id="footer" class="w-100">
+            <div class="master-footer mx-auto p-1 row">
+                <div id="footer_logo" class="col-lg-2 pr-1 d-none d-lg-flex align-items-center">
+                    <img src="../App_themes/ntu/images/logo_DaiHocNhaTrang.png" alt="logo NTU" border="0" class="ml-auto" style="width: 95px;" />
+                </div>
+                <div id="footer_left" class="col-lg-6 col-md-8 col-sm-12  pl-sm-3 pr-1">
+                    <div class="website-info mt-3 mb-0">
+                        <div><b>Bản quyền thuộc về Trung tâm Thông tin và Tư liệu Trường Đại học Nha Trang</b></div>
+                        <div><b>Địa chỉ:</b> Số 2 Nguyễn Đình Chiểu - Phường Bắc Nha Trang - Khánh Hòa</div>
+                        <div><b>Email:</b> tttl@ntu.edu.vn</div>
+                        <div><b>Điện thoại:</b> </div>
+                    </div>
+                </div>
+                <div id="footer_right" class="col-lg-4 col-md-4 col-sm-12 pl-sm-3 pr-1">
+                    
+<div class="website-info mt-3 mb-0">
+    <ul class="pl-5">
+        
+        <li class="today">Hôm nay: 12 Tháng Chín 2026</li>
+
+        
+        <li class="online-now"><span class="fa fa-eye mr-2"></span>
+            Người dùng online: 3.363
+        </li>
+        
+        <li class="online-day">
+            <span class="fa fa-calendar-check-o mr-2"></span>
+            Lượt truy cập hôm nay: 
+             131.572
+        </li>
+        
+        <li class="online-week">
+            <span class="fa fa-calendar-minus-o mr-2"></span>
+            Lượt truy cập tuần này: 
+            1.757.579
+        </li>
+        
+        <li class="online-month">
+            <span class="fa fa-calendar mr-2"></span>
+            Lượt truy cập tháng này: 
+            3.171.602
+        </li>
+        
+        <li class="online-all">
+            <span class="fa fa-bar-chart mr-2"></span>
+            Tổng lượt truy cập: 
+            223.794.607
+        </li>
+        
+    </ul>
+</div>
+
+
+
+                </div>
+            </div>
+        </div>
+    
+
+            <SCRIPT language="javascript">
+
+            <!--
+
+            function fnTrapKD(btn, event){
+
+            if (document.all){
+
+              if (event.keyCode == 13){
+
+               event.returnValue=false;
+
+               event.cancel = true;
+
+               btn.click();
+
+              }
+
+            }
+
+            else if (document.getElementById){
+
+              if (event.which == 13){
+
+               event.returnValue=false;
+
+               event.cancel = true;
+
+               btn.click();
+
+              }
+
+            }
+
+            else if(document.layers){
+
+              if(event.which == 13){
+
+               event.returnValue=false;
+
+               event.cancel = true;
+
+               btn.click();
+
+              }
+
+            }
+
+            }
+
+            // -->
+
+            </SCRIPT>
+<script type="text/javascript">
+//<![CDATA[
+var __wpmExportWarning='This Web Part Page has been personalized. As a result, one or more Web Part properties may contain confidential information. Make sure the properties contain information that is safe for others to read. After exporting this Web Part, view properties in the Web Part description file (.WebPart) by using a text editor such as Microsoft Notepad.';var __wpmCloseProviderWarning='You are about to close this Web Part.  It is currently providing data to other Web Parts, and these connections will be deleted if this Web Part is closed.  To close this Web Part, click OK.  To keep this Web Part, click Cancel.';var __wpmDeleteWarning='You are about to permanently delete this Web Part.  Are you sure you want to do this?  To delete this Web Part, click OK.  To keep this Web Part, click Cancel.';//]]>
+</script>
+</form>
+
+    <script type="text/javascript">
+        // this java scrip using for back to top icon
+        window.onscroll = function () { scrollFunction() };
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("btnBackToTop").style.display = "block";
+            } else {
+                document.getElementById("btnBackToTop").style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+    <script type="text/javascript">
+        var PatronID = '';
+        var Count = '0';
+        document.getElementById("BibCartItemCount").innerHTML = Count;
+    </script>
+    <script type="text/javascript">
+        !function ($) {
+            $(document).on("click", "#MenuHeading1 ul.nav li.parent > div.row > div.col-2 > span.sign", function () {
+                $(this).find('span:first').toggleClass("fa-window-minimize");
+            });
+
+            // Open Le current menu
+            $("#MenuHeading1 ul.nav li.parent.active > div.row > div.col-2 > span.sign").find('span:first').addClass("fa-plus-square");
+            $("#MenuHeading1 ul.nav li.current").parents('ul.children').addClass("in");
+
+        }(window.jQuery);
+    </script>
+
+</body>
+</html>

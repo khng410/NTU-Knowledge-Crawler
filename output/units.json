@@ -1,0 +1,62 @@
+[
+  {
+    "unit_id": "aaa5f88fd656d1d422e38b802cd5947130b30402a2e3f0dadad29d5cdccc47db",
+    "name": "Thư viện Trường Đại học Nha Trang",
+    "address": "Số 2 Nguyễn Đình Chiểu - Phường Bắc Nha Trang - Khánh Hòa",
+    "phone": null,
+    "email": "tttl@ntu.edu.vn",
+    "working_hours": null,
+    "source_url": "https://thuvien.ntu.edu.vn/",
+    "retrieved_at": "2026-09-13T09:29:23+07:00",
+    "services": [
+      "Dịch vụ mượn/trả tài liệu in",
+      "Sử dụng không gian học tập",
+      "Sử dụng máy tra cứu tài liệu",
+      "Tư vấn, hỗ trợ tìm kiếm thông tin, tài liệu tại kho",
+      "Tập huấn dành riêng cho bạn đọc sử dụng thư viện",
+      "Đọc tại chỗ",
+      "Đọc và tải tài liệu số phục vụ học tập"
+    ]
+  },
+  {
+    "unit_id": "555137b935002da13c327a0f77701f1c79f2fe6cbc840541b5b8ca4497d23be8",
+    "name": "Đơn vị hỗ trợ doanh nghiệp và hỗ trợ sinh viên",
+    "address": "số 02 Nguyễn Đình Chiểu - Nha Trang - Khánh Hòa",
+    "phone": null,
+    "email": "tttvhtsv@ntu.edu.vn",
+    "working_hours": null,
+    "source_url": "https://htdnhtsv.ntu.edu.vn/",
+    "retrieved_at": "2026-09-13T09:29:25+07:00",
+    "services": [
+      "Hỗ trợ tìm kiếm việc làm và khởi nghiệp",
+      "Thông tin cơ hội thực tập"
+    ]
+  },
+  {
+    "unit_id": "ddf79b6954c68652cbace64c1a38f80173eaea89659c71f0737267a9792caba1",
+    "name": "Phòng Công tác Chính trị và Sinh viên",
+    "address": null,
+    "phone": null,
+    "email": "ctsv@ntu.edu.vn",
+    "working_hours": null,
+    "source_url": "https://phongctsv.ntu.edu.vn/",
+    "retrieved_at": "2026-09-13T09:29:25+07:00",
+    "services": [
+      "Hướng dẫn sử dụng bảo hiểm y tế",
+      "Kết nối tuyển dụng việc làm"
+    ]
+  },
+  {
+    "unit_id": "8340f9e6697f90348384bdadf9e5cedab459b43691c458bcc7b921e1ad587b0c",
+    "name": "Trung tâm Phục vụ Trường học",
+    "address": null,
+    "phone": "0258.2 471 397",
+    "email": "ttpvth@ntu.edu.vn",
+    "working_hours": null,
+    "source_url": "https://trungtampvth.ntu.edu.vn/",
+    "retrieved_at": "2026-09-13T09:29:25+07:00",
+    "services": [
+      "Ký túc xá sinh viên"
+    ]
+  }
+]

@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <title>Tra cứu tr&#250;ng tuyển</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="/Content/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="/Content/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet"> <!--load all styles -->
+    <link href="/Content/toast/jquery.toast.css" rel="stylesheet" />
+    <link href="/Content/site-3.css" rel="stylesheet"/>
+<link href="/Content/Account-1.css" rel="stylesheet"/>
+
+    <link href="/Content/themes/base/jquery.ui.base.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.theme.css" rel="stylesheet"/>
+
+    <script src="/Scripts/jquery-2.1.0.js"></script>
+<script src="/Scripts/jquery-3.7.1.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+
+
+    <link href="/Content/Site-new.css" rel="stylesheet" />
+    <style>
+        #login-box form {
+            text-align: center;
+        }
+
+        .pass {
+            color: green;
+        }
+
+        .field {
+            color: red;
+        }
+
+        .xetinfo {
+            all: initial !important;
+        }
+
+            .xetinfo table {
+                border-collapse: collapse;
+                width: 100% !important;
+            }
+
+            /* Áp dụng border cho các ô trong bảng */
+            .xetinfo td, th {
+                border: 1px solid black; /* Ví dụ: 1px, kiểu solid, màu đen */
+                padding: 8px; /* Thêm padding để nội dung không dính sát vào border */
+            }
+    </style>
+
+</head>
+<body>
+
+
+    <div class="tm-wrapper">
+        <div class="tm-wrapper2">
+            <div class="tm-header">
+                
+                <nav class="navbar navbar-expand-lg navbar-light   p-0 nav-bar-ntu">
+                    <div class="container-fluid container-menu m-0 p-0">
+                        <a href="/Home/Index" class="img-top">
+                            <img src="/Content/ntu-theme/ntu-tuyensinh2026.png" />
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarScroll">
+                            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                            </ul>
+                            <div class="d-flex">
+                                
+    <ul class="navbar-nav me-auto ">
+        <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://tuyensinh.ntu.edu.vn/">Tuyển sinh </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://www.facebook.com/tuyensinhdhnt">Fanpage </a>
+            
+        </li>
+
+    </ul>
+        <ul class="navbar-nav me-auto ">
+            <li class="nav-item">
+                <a class="nav-link" href="/Account/LogIn">Đăng nhập </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/Account/Register">Đăng ký</a>
+            </li>
+
+        </ul>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <nav class="main-nav nhansu-theme">
+                    <div class="nav-container">
+                        <ul class="nav-list">
+
+
+                                <li class="nav-item ">
+                                    <a href="/Home" class="nav-link">X&#201;T TUYỂN BỔ SUNG</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a href="/TraCuu" class="nav-link">TRA CỨU</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="/NhapHoc" class="nav-link">THỦ TỤC NHẬP HỌC</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="/Home/TuVanNganh" class="nav-link">TƯ VẤN CHỌN NG&#192;NH</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="/Home/DanhGiaNangLuc" class="nav-link">LỊCH THI TIẾNG ANH</a>
+                                </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+
+
+
+            <div class="tm-body ">
+
+                
+
+
+<div class="tm-box clear-fix" id="login-box">
+    <div class="tm-box-header">
+        Tuyển sinh năm 2026
+    </div>
+    <div class="tm-box-body">
+        <div id="login_form">
+            <div>Nhập số CCCD (hoặc họ tên) để tra cứu kết quả nộp hồ sơ và <span style="">kết quả xét tuyển</span>. Lưu ý, phiếu xét tuyển phải được xác nhận hoàn tất và thanh toán lệ phí thì mới có thể tra cứu.</div>
+<form action="/" method="post"><input name="__RequestVerificationToken" type="hidden" value="Rp8dTmL0QX-GWP-ktWygMtlJZsYX77l5phROjYdRPZR4L8b-hMU_s_Zy99tSkhtWvzg9B68qWZIlS8DYt2xLHUxt18UCZoFUmWfVLXc_72U1" />                <div>
+                    <label for="SoCMND" style="width:auto;font-weight:600;">Số CCCD (hoặc Họ Tên, nhập CCCD để lấy mã tài khoản nhập học)</label>
+                    <div style="width:300px;margin:0 auto;">
+                        <input id="SoCMND" maxlength="50" name="SoCMND" type="text" value="" />
+                    </div>
+                    <div style="margin-top:2px">
+                        <input type="image" src="/Images/ok-button.png" />
+                    </div>
+                </div>
+</form>        </div>
+
+
+
+                    <hr />
+            <div class="xetinfo">
+                <!-- THÔNG BÁO QUAN TRỌNG -->
+<div style="background:#fff8e1; border:1px solid #ffe082; border-left:5px solid #f9a825; border-radius:6px; padding:14px 18px; margin-bottom:12px;">
+    <div style="font-weight:700; color:#e65100; margin-bottom:5px;">
+        Thông báo cập nhật kết quả
+    </div>
+    <div>
+        Kết quả tra cứu từng thí sinh sẽ được cập nhật vào lúc <strong>13h00 ngày 10/08/2026.</strong>
+    </div>
+</div>
+
+<div style="background:#eaf7f2; border:1px solid #b7dfd0; border-left:5px solid #00897b; border-radius:6px; padding:16px 18px; margin-bottom:22px; color:#333; line-height:1.5;">
+    <div style="font-size:16px; font-weight:700; color:#00796b; margin-bottom:10px;">
+        Hướng dẫn đăng nhập & Đóng học phí online (Dành cho thí sinh trúng tuyển)
+    </div>
+    
+    <div style="margin-bottom:12px;">
+        Thí sinh trúng tuyển <strong>"Đợt lọc ảo toàn quốc"</strong> cần truy cập vào địa chỉ 
+        <a href="https://xettuyen.ntu.edu.vn/NhapHoc" target="_blank" style="color:#00695c; font-weight:700; text-decoration:underline;">
+            xettuyen.ntu.edu.vn/NhapHoc
+        </a> 
+        để thực hiện thủ tục đóng học phí trực tuyến.
+    </div>
+
+    <div style="background:#ffffff; border:1px dashed #00897b; border-radius:5px; padding:12px 15px;">
+        <div style="font-weight:700; color:#185a8d; margin-bottom:8px;">
+            Quy tắc tài khoản để đăng nhập vào hệ thống:
+        </div>
+        
+        <ul style="margin:0; padding-left:20px;">
+            <li style="margin-bottom:12px;">
+                <div style="margin-bottom:6px;">
+                    <strong>Tên đăng nhập:</strong> <strong style="color:#c62828; font-size:16px;">t26_XXXXXXXXX</strong>
+                </div>
+                
+                <!-- Đoạn làm nổi bật -->
+                <div style="background:#fff4e5; border-left:4px solid #ff9800; padding:8px 12px; color:#b71c1c; font-size:14px; border-radius:4px; margin-bottom:5px;">
+                    <em>(Trong đó <strong>XXXXXXXXX</strong> là <strong>số CMND hoặc CCCD</strong> mà thí sinh đã khai báo trên hệ thống của Bộ GD&ĐT).</em>
+                </div>
+                
+            </li>
+            <li>
+                <strong>Mật khẩu:</strong> Nhập chính xác <strong>số CMND/CCCD</strong> của thí sinh.
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!-- TIÊU ĐỀ CHÍNH -->
+<div style="background:#0b5d7a; color:#fff; border-radius:7px; padding:13px 18px; margin:0 0 22px 0;">
+    <div style="font-size:18px; font-weight:700; letter-spacing:.2px;">
+        QUY TRÌNH TỔ CHỨC NHẬP HỌC
+    </div>
+</div>
+
+<!-- I -->
+<div style="margin-bottom:28px;">
+    <div style="font-size:17px; font-weight:700; color:#0b5d7a; border-bottom:2px solid #0b5d7a; padding-bottom:7px; margin-bottom:18px;">
+        I. THỜI GIAN, ĐỊA ĐIỂM VÀ PHÂN LUỒNG NHẬP HỌC
+    </div>
+
+    <!-- 1 -->
+    <div style="margin-bottom:18px;">
+        <div style="font-size:16px; font-weight:700; color:#444; margin-bottom:7px;">
+            1. Thời gian
+        </div>
+
+        <div style="background:#f7fafc; border:1px solid #e1e8ed; border-radius:6px; padding:12px 15px;">
+            Từ ngày <strong style="color:#0b5d7a;">17/8/2026 đến ngày 19/8/2026</strong>
+            <ul style="margin:7px 0 0 20px; padding:0;">
+                <li><strong>Buổi sáng:</strong> Từ 07h30' đến 11h15'</li>
+                <li><strong>Buổi chiều:</strong> Từ 14h00' đến 16h30'</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 2 -->
+    <div style="margin-bottom:18px;">
+        <div style="font-size:16px; font-weight:700; color:#444; margin-bottom:7px;">
+            2. Địa điểm
+        </div>
+
+        <div style="background:#f7fafc; border:1px solid #e1e8ed; border-radius:6px; padding:12px 15px;">
+            <strong>Giảng đường G4 và G5 - Trường Đại học Nha Trang</strong>
+            <br>
+            Địa chỉ: Số 02 Nguyễn Đình Chiểu, phường Bắc Nha Trang, tỉnh Khánh Hòa
+        </div>
+    </div>
+
+    <!-- 3 -->
+    <div>
+        <div style="font-size:16px; font-weight:700; color:#444; margin-bottom:10px;">
+            3. Phân luồng thí sinh trúng tuyển nhập học
+        </div>
+
+        <div style="overflow-x:auto;">
+            <table style="border-collapse:collapse; width:100%; min-width:850px; border:1px solid #d9e1e6; font-size:14px;">
+                <thead>
+                    <tr style="background:#0b5d7a; color:#fff;">
+                        <th style="border:1px solid #d9e1e6; padding:11px 9px; text-align:center; width:115px;">
+                            Ngày nhập học
+                        </th>
+                        <th style="border:1px solid #d9e1e6; padding:11px 9px; text-align:center; width:100px;">
+                            Buổi
+                        </th>
+                        <th style="border:1px solid #d9e1e6; padding:11px 12px; text-align:left;">
+                            Thí sinh trúng tuyển
+                        </th>
+                        <th style="border:1px solid #d9e1e6; padding:11px 12px; text-align:left; width:240px;">
+                            Ghi chú
+                        </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <!-- 17/8 SÁNG -->
+                    <tr>
+                        <td rowspan="2" style="border:1px solid #d9e1e6; padding:11px 8px; text-align:center; vertical-align:top; background:#f5f9fb;">
+                            <strong>17/8/2026</strong><br>
+                            <span style="font-size:13px;">(Thứ hai)</span>
+                        </td>
+
+                        <td style="border:1px solid #d9e1e6; padding:11px 8px; text-align:center; vertical-align:top;">
+                            <strong>Buổi sáng</strong>
+                        </td>
+
+                        <td style="border:1px solid #d9e1e6; padding:11px 12px; vertical-align:top;">
+                            <strong>Nhóm ngành (CT chuẩn và CT đặc biệt), bao gồm:</strong>
+                            <ol style="margin:7px 0 0 20px; padding:0;">
+                                <li>Kỹ thuật môi trường</li>
+                                <li>Kỹ thuật hoá học</li>
+                                <li>Kỹ thuật cơ khí</li>
+                                <li>Công nghệ chế tạo máy</li>
+                                <li>Kỹ thuật cơ điện tử</li>
+                                <li>Kỹ thuật nhiệt</li>
+                                <li>Kỹ thuật cơ khí động lực</li>
+                                <li>Kỹ thuật ô tô</li>
+                                <li>Kỹ thuật điện</li>
+                                <li>Kỹ thuật điều khiển và tự động hóa</li>
+                                <li>Kỹ thuật xây dựng</li>
+                                <li>Kỹ thuật xây dựng công trình giao thông</li>
+                            </ol>
+                        </td>
+
+                        <td rowspan="2" style="border:1px solid #d9e1e6; padding:11px 12px; vertical-align:top; background:#fafcfd;">
+                            Nhà trường sẽ thông báo thời gian nhập học cụ thể đến từng thí sinh thông qua tin nhắn SMS.
+                        </td>
+                    </tr>
+
+                    <!-- 17/8 CHIỀU -->
+                    <tr>
+                        <td style="border:1px solid #d9e1e6; padding:11px 8px; text-align:center; vertical-align:top;">
+                            <strong>Buổi chiều</strong>
+                        </td>
+
+                        <td style="border:1px solid #d9e1e6; padding:11px 12px; vertical-align:top;">
+                            <strong>Nhóm ngành (CT chuẩn và CT đặc biệt), bao gồm:</strong>
+                            <ol style="margin:7px 0 0 20px; padding:0;">
+                                <li>Khoa học hàng hải</li>
+                                <li>Kỹ thuật tàu thủy</li>
+                                <li>Kỹ thuật biển</li>
+                                <li>Đảm bảo chất lượng và an toàn thực phẩm</li>
+                                <li>Công nghệ chế biến thuỷ sản</li>
+                                <li>Công nghệ thực phẩm</li>
+                                <li>Công nghệ sinh học</li>
+                                <li>Nuôi trồng thuỷ sản</li>
+                                <li>Quản lý thuỷ sản</li>
+                                <li>Khoa học thủy sản</li>
+                            </ol>
+                        </td>
+                    </tr>
+
+                    <!-- 18/8 SÁNG -->
+                    <tr>
+                        <td rowspan="2" style="border:1px solid #d9e1e6; padding:11px 8px; text-align:center; vertical-align:top; background:#f5f9fb;">
+                            <strong>18/8/2026</strong><br>
+                            <span style="font-size:13px;">(Thứ ba)</span>
+                        </td>
+
+                        <td style="border:1px solid #d9e1e6; padding:11px 8px; text-align:center; vertical-align:top;">
+                            <strong>Buổi sáng</strong>
+                        </td>
+
+                        <td style="border:1px solid #d9e1e6; padding:11px 12px; vertical-align:top;">
+                            <strong>Nhóm ngành (CT chuẩn và CT đặc biệt), bao gồm:</strong>
+                            <ol style="margin:7px 0 0 20px; padding:0;">
+                                <li>Quản trị kinh doanh</li>
+                                <li>Marketing</li>
+                                <li>Kinh doanh thương mại</li>
+                                <li>Kinh tế</li>
+                                <li>Kinh tế phát triển</li>
+                            </ol>
+                        </td>
+
+                        <td rowspan="2" style="border:1px solid #d9e1e6; padding:11px 12px; vertical-align:top; background:#fafcfd;">
+                            &nbsp;
+                        </td>
+                    </tr>
+
+                    <!-- 18/8 CHIỀU -->
+                    <tr>
+                        <td style="border:1px solid #d9e1e6; padding:11px 8px; text-align:center; vertical-align:top;">
+                            <strong>Buổi chiều</strong>
+                        </td>
+
+                        <td style="border:1px solid #d9e1e6; padding:11px 12px; vertical-align:top;">
+                            <strong>Nhóm ngành (CT chuẩn và CT đặc biệt), bao gồm:</strong>
+                            <ol style="margin:7px 0 0 20px; padding:0;">
+                                <li>Tài chính - Ngân hàng</li>
+                                <li>Kế toán</li>
+                                <li>Kiểm toán</li>
+                            </ol>
+                        </td>
+                    </tr>
+
+                    <!-- 19/8 SÁNG -->
+                    <tr>
+                        <td rowspan="2" style="border:1px solid #d9e1e6; padding:11px 8px; text-align:center; vertical-align:top; background:#f5f9fb;">
+                            <strong>19/8/2026</strong><br>
+                            <span style="font-size:13px;">(Thứ tư)</span>
+                        </td>
+
+                        <td style="border:1px solid #d9e1e6; padding:11px 8px; text-align:center; vertical-align:top;">
+                            <strong>Buổi sáng</strong>
+                        </td>
+
+                        <td style="border:1px solid #d9e1e6; padding:11px 12px; vertical-align:top;">
+                            <strong>Nhóm ngành (CT chuẩn và CT đặc biệt), bao gồm:</strong>
+                            <ol style="margin:7px 0 0 20px; padding:0;">
+                                <li>Quản trị dịch vụ du lịch và lữ hành</li>
+                                <li>Quản trị khách sạn</li>
+                                <li>Luật</li>
+                            </ol>
+                        </td>
+
+                        <td rowspan="2" style="border:1px solid #d9e1e6; padding:11px 12px; vertical-align:top; background:#fafcfd;">
+                            &nbsp;
+                        </td>
+                    </tr>
+
+                    <!-- 19/8 CHIỀU -->
+                    <tr>
+                        <td style="border:1px solid #d9e1e6; padding:11px 8px; text-align:center; vertical-align:top;">
+                            <strong>Buổi chiều</strong>
+                        </td>
+
+                        <td style="border:1px solid #d9e1e6; padding:11px 12px; vertical-align:top;">
+                            <strong>Nhóm ngành (CT chuẩn và CT đặc biệt), bao gồm:</strong>
+                            <ol style="margin:7px 0 0 20px; padding:0;">
+                                <li>Ngôn ngữ Anh</li>
+                                <li>Công nghệ thông tin</li>
+                                <li>Khoa học máy tính</li>
+                                <li>Hệ thống thông tin quản lý</li>
+                                <li>Các ngành/CTĐT khác</li>
+                            </ol>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- II -->
+<div style="margin-bottom:25px;">
+    <div style="font-size:17px; font-weight:700; color:#0b5d7a; border-bottom:2px solid #0b5d7a; padding-bottom:7px; margin-bottom:14px;">
+        II. QUY TRÌNH TỔ CHỨC NHẬP HỌC
+    </div>
+
+    <p style="margin:0 0 18px 0;">
+        Thí sinh trúng tuyển cần thực hiện đầy đủ và tuần tự các bước nhập học cụ thể sau:
+    </p>
+
+    <!-- ONLINE -->
+    <div style="background:#f0f7fa; border-left:4px solid #0b5d7a; padding:10px 14px; margin-bottom:18px;">
+        <strong style="color:#0b5d7a; font-size:16px;">
+            2.1. Các bước thực hiện bằng hình thức trực tuyến (online)
+        </strong>
+    </div>
+
+    <!-- BƯỚC 1 -->
+    <div style="border:1px solid #dce5ea; border-radius:7px; margin-bottom:14px; overflow:hidden;">
+        <div style="background:#f7fafc; padding:11px 15px; border-bottom:1px solid #dce5ea;">
+            <strong style="color:#0b5d7a;">Bước 1. Xác nhận nhập học trực tuyến trên Hệ thống tuyển sinh của Bộ GD&amp;ĐT</strong>
+        </div>
+
+        <div style="padding:13px 15px;">
+            Thí sinh thực hiện xác nhận nhập học trực tuyến trên Hệ thống hỗ trợ tuyển sinh chung của Bộ GD&amp;ĐT:
+            <a href="http://thisinh.thithptquocgia.edu.vn" target="_blank" style="color:#00695c; font-weight:600;">
+                http://thisinh.thithptquocgia.edu.vn
+            </a>
+            từ ngày <strong>14/8/2026</strong> đến <strong>17 giờ 00 ngày 21/8/2026</strong> theo quy định của Bộ GD&amp;ĐT.
+        </div>
+    </div>
+
+    <!-- BƯỚC 2 -->
+    <div style="border:1px solid #dce5ea; border-radius:7px; margin-bottom:18px; overflow:hidden;">
+        <div style="background:#f7fafc; padding:11px 15px; border-bottom:1px solid #dce5ea;">
+            <strong style="color:#0b5d7a;">Bước 2. Đăng ký ở Ký túc xá (nếu có) và đóng Học phí bằng hình thức online từ 12/8/2026 – 23/8/2026</strong>
+        </div>
+
+        <div style="padding:13px 15px;">
+
+            <div style="font-weight:700; color:#444; margin-bottom:5px;">
+                Đăng ký ở Ký túc xá (KTX)
+            </div>
+
+            <p style="margin:0 0 15px 0;">
+                Thí sinh đăng ký ở Ký túc xá tại địa chỉ:
+                <a href="https://xettuyen.ntu.edu.vn/NhapHoc" target="_blank" style="color:#00695c; font-weight:600;">
+                    https://xettuyen.ntu.edu.vn/NhapHoc
+                </a>
+            </p>
+
+            <div style="font-weight:700; color:#444; margin-bottom:5px;">
+                Đóng học phí (tạm thu)
+            </div>
+
+            <p style="margin:0;">
+                Sau khi hoàn thành việc đăng ký KTX online (nếu có), thí sinh thực hiện đóng học phí và các loại phí khác (gọi tắt là học phí) theo quy định của Nhà trường tại địa chỉ:
+                <a href="https://xettuyen.ntu.edu.vn/NhapHoc" target="_blank" style="color:#00695c; font-weight:600;">
+                    https://xettuyen.ntu.edu.vn/NhapHoc
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <!-- LƯU Ý 1 -->
+    <div style="background:#fff8e1; border:1px solid #ffe082; border-left:4px solid #f9a825; border-radius:6px; padding:13px 15px; margin-bottom:22px;">
+        <div style="font-weight:700; color:#e65100; margin-bottom:6px;">
+            Lưu ý
+        </div>
+
+        <ul style="margin:0 0 0 20px; padding:0;">
+            <li>Thí sinh chỉ được xác nhận hoàn tất thủ tục nhập học sau khi đã hoàn thành nghĩa vụ học phí theo quy định.</li>
+            <li>Thời gian nộp học phí từ <strong>12/8/2026 đến hết ngày 23/8/2026</strong>.</li>
+        </ul>
+    </div>
+
+    <!-- TRỰC TIẾP -->
+    <div style="background:#f0f7fa; border-left:4px solid #0b5d7a; padding:10px 14px; margin-bottom:18px;">
+        <strong style="color:#0b5d7a; font-size:16px;">
+            2.2. Các bước thực hiện theo hình thức trực tiếp tại Trường
+        </strong>
+    </div>
+
+    <!-- BƯỚC 3 -->
+    <div style="border:1px solid #dce5ea; border-radius:7px; margin-bottom:14px; overflow:hidden;">
+        <div style="background:#f7fafc; padding:11px 15px; border-bottom:1px solid #dce5ea;">
+            <strong style="color:#0b5d7a;">Bước 3. Nhận giấy báo trúng tuyển</strong>
+        </div>
+
+        <div style="padding:13px 15px;">
+            Thí sinh nhận Giấy báo trúng tuyển tại khu vực làm thủ tục nhập học theo hướng dẫn của Nhà trường.
+        </div>
+    </div>
+
+    <!-- BƯỚC 4 -->
+    <div style="border:1px solid #dce5ea; border-radius:7px; margin-bottom:14px; overflow:hidden;">
+        <div style="background:#f7fafc; padding:11px 15px; border-bottom:1px solid #dce5ea;">
+            <strong style="color:#0b5d7a;">Bước 4. Nộp hồ sơ nhập học</strong>
+        </div>
+
+        <div style="padding:13px 15px;">
+            <p style="margin-top:0;">
+                Thí sinh chuẩn bị đầy đủ các giấy tờ sau đây để nộp trực tiếp tại Trường, cụ thể:
+            </p>
+
+            <ol style="margin:0 0 0 22px; padding:0;">
+                <li>Giấy chứng nhận kết quả thi tốt nghiệp THPT: <strong>01 bản chính</strong>;</li>
+                <li>Giấy khai sinh: <strong>01 bản sao có chứng thực</strong>;</li>
+                <li>Học bạ THPT: <strong>01 bản sao có chứng thực</strong>;</li>
+                <li>Bằng tốt nghiệp THPT: <strong>01 bản sao có chứng thực</strong> (đối với thí sinh đã được cấp bằng). Thí sinh tốt nghiệp THPT năm 2026 bổ sung bản sao sau khi được cấp bằng theo thông báo của Nhà trường.</li>
+                <li>Căn cước công dân: <strong>01 bản sao</strong> (không yêu cầu chứng thực).</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- LƯU Ý 2 -->
+    <div style="background:#fff8e1; border:1px solid #ffe082; border-left:4px solid #f9a825; border-radius:6px; padding:13px 15px; margin-bottom:22px;">
+        <div style="font-weight:700; color:#e65100; margin-bottom:6px;">
+            Lưu ý
+        </div>
+
+        <ul style="margin:0 0 0 20px; padding:0;">
+            <li>Thí sinh phải nộp đầy đủ các giấy tờ theo quy định. Trường hợp thiếu hồ sơ hoặc thông tin trong hồ sơ không thống nhất với nội dung đã kê khai, thí sinh hoàn toàn chịu trách nhiệm về kết quả trúng tuyển và nhập học.</li>
+            <li>Các giấy tờ liên quan đến chế độ chính sách đối với người học thuộc diện chính sách (nếu có): nộp tại Phòng Công tác Sinh viên sau khi vào học kỳ chính.</li>
+            <li>Trường Đại học Nha Trang cấp miễn phí bì đựng hồ sơ cho thí sinh.</li>
+        </ul>
+    </div>
+
+    <!-- BƯỚC 5 -->
+    <div style="border:1px solid #dce5ea; border-radius:7px; margin-bottom:22px; overflow:hidden;">
+        <div style="background:#f7fafc; padding:11px 15px; border-bottom:1px solid #dce5ea;">
+            <strong style="color:#0b5d7a;">Bước 5. Đăng ký các hoạt động khác</strong>
+        </div>
+
+        <div style="padding:13px 15px;">
+            <ul style="margin:0 0 0 20px; padding:0;">
+                <li>Đăng ký tham gia hoạt động Đoàn Thanh niên, Hội Sinh viên và các câu lạc bộ;</li>
+                <li>Đăng ký hoạt động giáo dục thể chất.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- THÔNG TIN CHI TIẾT -->
+<div style="background:#eaf7f2; border:1px solid #b7dfd0; border-radius:7px; padding:14px 17px; margin-top:25px;">
+    <strong style="color:#00796b;">Thông tin hướng dẫn chi tiết dành cho Tân sinh viên:</strong>
+    <br>
+    <a href="https://tuyensinh.ntu.edu.vn/nhap-hoc" target="_blank" style="color:#00695c; font-weight:700;">
+        https://tuyensinh.ntu.edu.vn/nhap-hoc
+    </a>
+</div>
+            </div>
+    </div>
+</div>
+
+
+            </div>
+            <div class="tm-footer clear-fix nhansu-theme">
+                <div class="tm-footer-wrapper">
+                    <div class="ntu">
+                        <p>TRƯỜNG ĐẠI HỌC NHA TRANG</p>
+                        <p>Điện thoại: (0258)383.1145. Fax: (0258)383.1148 </p>
+                        <p>Website tuyển sinh: <a href="http://tuyensinh.ntu.edu.vn" target="_blank">http://tuyensinh.ntu.edu.vn</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/Scripts/jquery-2.1.0.js"></script>
+<script src="/Scripts/jquery-3.7.1.js"></script>
+
+    <script src="/Scripts/jquery-ui-1.10.4.js"></script>
+
+    <script src="/Scripts/jquery.unobtrusive-ajax.js"></script>
+<script src="/Scripts/jquery.validate.js"></script>
+<script src="/Scripts/jquery.validate.unobtrusive.js"></script>
+
+    <script src="/Scripts/modernizr-2.7.2.js"></script>
+
+
+
+
+
+    <script src="/Scripts/currency/jquery.masknumber.min.js"></script>
+
+
+
+
+
+
+    <script src="/Content/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="/Content/toast/jquery.toast.js"></script>
+    
+    <script src="/Scripts/jquery.unobtrusive-ajax.js"></script>
+<script src="/Scripts/jquery.validate.js"></script>
+<script src="/Scripts/jquery.validate.unobtrusive.js"></script>
+
+
+    <script type="text/javascript">
+        $(function () {
+            if ($("#login_form input[type='text']").size() > 0)
+                $("#login_form input[type='text']")[0].focus();
+        });
+    </script>
+
+
+    <script type="text/javascript">
+        $(function () {
+            $("#accordian h3").click(function () {
+                var a;
+                $("#accordian ul ul").slideUp();
+                if (!$(this).next().is(":visible")) {
+                    $(this).next().slideDown();
+                    a = $(this).parent();
+                }
+                $("#accordian ul > li").removeClass("active");
+                if (a != null) a.addClass("active");
+            })
+            $(".button").button();
+        });
+
+        //$.toast({
+        //    heading: 'Lỗi',
+        //    text: "Liên hệ quản trị",
+        //    showHideTransition: 'fade',
+        //    icon: 'error',
+        //    position: 'top-right',
+        //    stack: false
+        //})
+    </script>
+
+
+
+    <a href="#" id="scrollTopBtn" title="Lên đầu trang">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </a>
+
+
+    <script>
+        // Hiện nút khi scroll xuống
+        window.onscroll = function () {
+            var btn = document.getElementById("scrollTopBtn");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        };
+
+        // Khi click, scroll lên đầu
+        document.getElementById("scrollTopBtn").addEventListener("click", function (e) {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>

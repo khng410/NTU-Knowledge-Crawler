@@ -1,0 +1,480 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="vi">
+<head id="ctl00_Head1"><meta http-equiv="Content-Type" content="text/html;&#32;charset=UTF-8" /><meta content="IE=edge,chrome=1,firefox=1" /><meta name="viewport" content="width=device-width,&#32;initial-scale=1" /><title>
+	
+        Trung tâm Thông tin và Tư liệu trường Đại Học Nha Trang
+    
+</title><link rel="shortcut&#32;icon" href="#" /><link href="App_Themes/ntu.ico" rel="shortcut&#32;icon" type="image/x-icon" /><link href="Content/bootstrap.min.css" rel="stylesheet" /><link href="Content/font-awesome.min.css" rel="stylesheet" />
+
+    <script src="Scripts/jquery-3.6.4.min.js" type="text/javascript"></script>
+    <script src="Scripts/Umd/popper.min.js" type="text/javascript"></script>
+    <script src="Scripts/bootstrap.min.js" type="text/javascript"></script>
+
+    <link href="Content/dataTables.bootstrap4.min.css" rel="stylesheet" /><link href="Content/responsive.bootstrap4.min.css" rel="stylesheet" />
+    <script src="js/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script src="js/dataTables.bootstrap4.min.js" type="text/javascript"></script>
+    <script src="js/dataTables.responsive.min.js" type="text/javascript"></script>
+    <script src="js/responsive.bootstrap4.min.js" type="text/javascript"></script>
+
+    <script src="js/bibCart.js" type="text/javascript"></script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if ($('#table-admin').length) {
+                $('#table-admin').DataTable({
+                    "paging": false,
+                    "ordering": false,
+                    "info": false,
+                    "searching": false
+                });
+            }
+            if ($('#table-admin2').length) {
+                $('#table-admin2').DataTable({
+                    "paging": false,
+                    "ordering": false,
+                    "info": false,
+                    "searching": false
+                });
+            }
+            if ($('#table-admin3').length) {
+                $('#table-admin3').DataTable({
+                    "paging": false,
+                    "ordering": false,
+                    "info": false,
+                    "searching": false
+                });
+            }
+            if ($('#table-admin4').length) {
+                $('#table-admin4').DataTable({
+                    "paging": false,
+                    "ordering": false,
+                    "info": false,
+                    "searching": false
+                });
+            }
+        });
+    </script>
+
+    
+
+<link href="App_Themes/ntu/AdminLTE.min.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ntu/animate.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ntu/boxes.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ntu/Calendar.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ntu/comment.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ntu/content-slider.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ntu/dataTables.bootstrap4.min.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ntu/EJournal.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ntu/font_greatVibes.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ntu/Login.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ntu/main.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ntu/menu.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ntu/menuflyout.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ntu/menu-navbar.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ntu/newbook-slider.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ntu/photo-gallery.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ntu/photoslidershow.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ntu/responsive.bootstrap4.min.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ntu/WebParts.css" type="text/css" rel="stylesheet" /><meta name="description" /><meta name="keywords" /></head>
+<body>
+
+    <form method="post" action="./News.aspx?contentid=526" id="aspnetForm">
+<input type="hidden" name="__WPPS" id="__WPPS" value="s" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+
+<script src="/ScriptResource.axd?d=uHIkleVeDJf4xS50Krz-yLndVJlkLhBs0DX8rQryrLt01qJeQrqMprOJgJAJfvTJUg5MKSzmtINC0yURN-1UwLJjdRqMkRCjrIUsEPW7BibLzpi1i-mHAVG08napmUnex_iRMU69hUiPATMJExsSqISbYrrudc1924esiOPWdLA1&amp;t=ffffffffbec1863d" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA8C29DA" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="GimXWO5eisFmP3Et3AvEvKhZJ7tNgXtIhKgm5qCd+nR5vmrOxsL6x0zjX6GFVWX3lbmWShEmO+ORnGf1+FH15xo9cgKRbQSLm9gMb/oHR11+Fr81aKF4FWp4kmVx9CghjOWGUWdH7Ej8xjKbN07MalaJnrUOHuWrB2CkwrPo/4derpffEoaAwA0gK3aWGlB8" />
+        
+        
+        <div id="ctl00_divWpMan">
+            
+
+
+
+<!--Toolbar-->
+
+            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="header-top-bar">
+            <div class="container-fluid d-flex justify-content-between align-items-center" style="padding: 0 5%;">
+                <div class="icon-bar">
+                    <a class="ml-2" href="https://ntu.edu.vn" style="align-items: center;display: flex;" target="_blank">
+                        <img src="../App_themes/ntu/images/home_NT.png" border="0" alt="NTU" width="20px;" />
+                        Trường Đại học Nha Trang</a>
+                </div>
+                <div class="header-top-bar-right ml-auto me-2 d-flex flex-row align-items-center h-100">
+                    <div class="justify-content-center align-items-center h-100 pr-2 d-none d-sm-block">
+                        <a href="https://moet.gov.vn/" alt="Bộ Giáo dục và Đào tạo" target="_blank"> Bộ GD&ĐT</a>
+                    </div>
+                    <div class="justify-content-center align-items-center h-100 pr-2 d-none d-sm-block">
+                        <a href="https://qldt.ntu.edu.vn/tracuuvanbangchungchi.html" alt="Tra cứu văn bằng" target="_blank"> Tra cứu văn bằng</a>
+                    </div>
+                    <div class="justify-content-center align-items-center h-100 pr-2 d-none d-sm-block">
+                        <a href="https://elearning.ntu.edu.vn/" alt="E-Learning" target="_blank">E-Learning </a>
+                    </div>
+                    <div class="justify-content-center align-items-center h-100 pr-2 d-none d-sm-block">
+                        <a href="https://eoffice.ntu.edu.vn/" alt="E-Office" target="_blank"> E-Office</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-100">
+            <div id="banner">
+                <div class="master-banner row px-0">
+                    <img src="../App_themes/ntu/images/banner_NTU1.png" border="0" alt="NTU" class="banner" />
+                </div>
+                <div class="banner-mobile ">
+                    <a href="https://thuvien.ntu.edu.vn">
+                        <img src="../App_themes/ntu/images/banner_NTU_mobile.jpg" border="0" alt="NTU" width="100%" /></a>
+                </div>
+                <div class="language-flag">
+                    <span>
+                        
+                        <a id="ctl00_btnSelectEnglish" href="javascript:__doPostBack(&#39;ctl00$btnSelectEnglish&#39;,&#39;&#39;)"><img id="ctl00_EnglishFlag" src="..\App_Themes\ntu\images\English.png" /></a>
+                    </span>
+                </div>
+            </div>
+
+            <div class="clr"></div>
+        </div>
+
+
+        <div id="main-menu" class="w-100">
+            <div style="width: 100%;">
+                <!--background-color: #1071B6; -->
+                <table cellspacing="0" cellpadding="0" border="0" id="ctl00_WebPartZoneTopMenu" bgcolor="Transparent" height="100%" width="100%">
+	<tr>
+		<td height="100%"><table cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
+			<tr>
+				<td><table cellspacing="0" cellpadding="2" border="0" bgcolor="White" width="100%">
+					<tr>
+						<td class="NoPaddingAndTransparent" cellspacing="0" cellpadding="0" bgcolor="White" width="100%">
+
+
+<div id="menunavbar" class="mx-auto px-0 py-0">
+    <nav class="navbar navbar-expand-lg navbar-light px-0 py-0 shadow-sm">
+        <div class="w-100 main row justify-content-between" >
+             <a id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpMenuNavbar1_MenuNavbar1_linkHomePage" href="javascript:__doPostBack(&#39;ctl00$WebPartManagerPanel1$WebPartManagerMain$gwpMenuNavbar1$MenuNavbar1$linkHomePage&#39;,&#39;&#39;)" style="font-size:2rem;"><img id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpMenuNavbar1_MenuNavbar1_HomeVCB" src="..\App_Themes\ntu\images\Home1.png" style="width:31px;padding-top: 3px;" /></a>
+            <button type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler float-right">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto m-0">
+                    <li class='nav-item active dropdown'><a class='dropdown-item d-inline-block text-uppercase px-2 py-2 w-90 text-nowrap' href='/introduction.aspx?mnuid=121' >Giới thiệu</a><a id='dropdownMenu0' href='#' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false' class='nav-link dropdown-toggle d-lg-none d-sm-inline-block float-right dropdown-icon pl-1 pr-0 py-2 w-10'></a><ul aria-labelledby='dropdownMenu0' class='dropdown-menu dropdown-menu-level1 border-0 shadow p-0' ><li><a href='/introduction.aspx?mnuid=121&catid=1000&contentid=4' class='dropdown-item px-2 py-2'>Chức năng nhiệm vụ</a></li><li class='dropdown-divider m-0'></li><li><a href='/introduction.aspx?mnuid=121&catid=1000&contentid=259' class='dropdown-item px-2 py-2'>Nhân sự</a></li><li class='dropdown-divider m-0'></li><li><a href='/introduction.aspx?mnuid=121&catid=1000&contentid= 175' class='dropdown-item px-2 py-2'>Thời gian làm việc</a></li><li class='dropdown-divider m-0'></li><li><a href='/introduction.aspx?mnuid=121&catid=1000&contentid=2' class='dropdown-item px-2 py-2'>Giới thiệu chung</a></li><li class='dropdown-divider m-0'></li><li><a href='/introduction.aspx?mnuid=121&catid=1000&contentid=380' class='dropdown-item px-2 py-2'>Sơ đồ Thư viện</a></li><li class='dropdown-divider m-0'></li></ul></li><li class='nav-item active dropdown'><a class='dropdown-item d-inline-block text-uppercase px-2 py-2 w-90 text-nowrap' href='/opac/headingsearch.aspx?mnuid=141' >Tra cứu</a><a id='dropdownMenu1' href='#' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false' class='nav-link dropdown-toggle d-lg-none d-sm-inline-block float-right dropdown-icon pl-1 pr-0 py-2 w-10'></a><ul aria-labelledby='dropdownMenu1' class='dropdown-menu dropdown-menu-level1 border-0 shadow p-0' ><li><a href='/opac/headingsearch.aspx?mnuid=141' class='dropdown-item px-2 py-2'>Tìm lướt</a></li><li class='dropdown-divider m-0'></li><li><a href='/opac/keywordsearch.aspx?mnuid=142' class='dropdown-item px-2 py-2'>Tìm Từ khóa</a></li><li class='dropdown-divider m-0'></li><li><a href='/opac/expertsearch.aspx?mnuid=143' class='dropdown-item px-2 py-2'>Tìm Chuyên gia</a></li><li class='dropdown-divider m-0'></li><li><a href='/opac/fulltextsearch.aspx?mnuid=144' class='dropdown-item px-2 py-2'>Tìm Toàn văn</a></li><li class='dropdown-divider m-0'></li><li><a href='/jetportal/default.aspx?mnuid=145' class='dropdown-item px-2 py-2'>Tra cứu liên thư viện</a></li><li class='dropdown-divider m-0'></li><li><a href='/opac/default.aspx?mnuid=146' class='dropdown-item px-2 py-2'>Tài Liệu Mới</a></li><li class='dropdown-divider m-0'></li><li><a href='/contentbrowser.aspx?contentid=172' class='dropdown-item px-2 py-2'>Cơ sở dữ liệu mở</a></li><li class='dropdown-divider m-0'></li></ul></li><li class='nav-item active'><a class='nav-link  text-uppercase px-2 py-2 text-nowrap' href='/ejournal/default.aspx?mnuid=32' >Tạp chí</a></li><li class='nav-item active dropdown'><a class='dropdown-item d-inline-block text-uppercase px-2 py-2 w-90 text-nowrap' href='/patron/default.aspx?mnuid=21' >Người dùng</a><a id='dropdownMenu3' href='#' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false' class='nav-link dropdown-toggle d-lg-none d-sm-inline-block float-right dropdown-icon pl-1 pr-0 py-2 w-10'></a><ul aria-labelledby='dropdownMenu3' class='dropdown-menu dropdown-menu-level1 border-0 shadow p-0' ><li><a href='/contentbrowser.aspx?contentid=439' class='dropdown-item px-2 py-2'>Hướng dẫn (Video)</a></li><li class='dropdown-divider m-0'></li><li><a href='/contentbrowser.aspx?contentid=257' class='dropdown-item px-2 py-2'>Hướng dẫn sử dụng</a></li><li class='dropdown-divider m-0'></li><li><a href='/sendrequest.aspx?mnuid=164' class='dropdown-item px-2 py-2'>Gửi yêu cầu</a></li><li class='dropdown-divider m-0'></li><li><a href='/contentbrowser.aspx?contentid=218' class='dropdown-item px-2 py-2'>Nội quy - Chính sách</a></li><li class='dropdown-divider m-0'></li></ul></li><li class='nav-item active'><a class='nav-link  text-uppercase px-2 py-2 text-nowrap' href='/forum/default.aspx?mnuid=17' >Diễn Đàn</a></li><li class='nav-item active'><a class='nav-link  text-uppercase px-2 py-2 text-nowrap' href='/sendrequest.aspx?mnuid=164' >Gửi yêu cầu</a></li><li class='nav-item active dropdown'><a class='dropdown-item d-inline-block text-uppercase px-2 py-2 w-90 text-nowrap' href='/contentbrowser.aspx?contentid=375' >DỊCH VỤ THƯ VIỆN</a><a id='dropdownMenu6' href='#' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false' class='nav-link dropdown-toggle d-lg-none d-sm-inline-block float-right dropdown-icon pl-1 pr-0 py-2 w-10'></a><ul aria-labelledby='dropdownMenu6' class='dropdown-menu dropdown-menu-level1 border-0 shadow p-0' ><li><a href='/contentbrowser.aspx?contentid=375' class='dropdown-item px-2 py-2'>Dịch vụ miễn phí</a></li><li class='dropdown-divider m-0'></li><li><a href='/contentbrowser.aspx?contentid=378' class='dropdown-item px-2 py-2'>Dịch vụ có phí</a></li><li class='dropdown-divider m-0'></li></ul></li>
+                </ul> <div class="clearfix"></div>
+                
+                <ul class="nav navbar-nav navbar-right text-white mr-auto d-lg-block d-sm-block m-0 p-0">
+                    <div id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpMenuNavbar1_MenuNavbar1_divlogin" class="login-menu&#32;p-0&#32;px-2">
+                        <a id="ctl00_WebPartManagerPanel1_WebPartManagerMain_gwpMenuNavbar1_MenuNavbar1_UserLogin" class="nav-link&#32;font-weight-bold&#32;py-0" href="javascript:__doPostBack(&#39;ctl00$WebPartManagerPanel1$WebPartManagerMain$gwpMenuNavbar1$MenuNavbar1$UserLogin&#39;,&#39;&#39;)"><span class='fa fa-sign-in'></span> Đăng nhập</a>
+                    </div>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        // ------------------------------------------------------- //
+        // Multi Level dropdowns
+        // ------------------------------------------------------ //
+        $("ul.dropdown-menu [data-toggle='dropdown']").on("click", function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+
+            $(this).siblings().toggleClass("show");
+
+
+            if (!$(this).next().hasClass('show')) {
+                $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+            }
+            $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+                $('.dropdown-submenu .show').removeClass("show");
+            });
+
+        });
+    });
+</script>
+</td>
+					</tr>
+				</table></td>
+			</tr><tr>
+				<td height="100%"></td>
+			</tr>
+		</table></td>
+	</tr>
+</table>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+
+        <div id="master-containter" class="row">
+            
+    <div class="body-container mx-auto">
+        <div class="row ml-0 mr-0">
+             <div class="col-lg-9 pl-0 pr-1" >
+                <div class="zone-space-top"></div>
+	            <table cellspacing="0" cellpadding="0" border="0" id="ctl00_BodyPlaceHolder_WebPartZone1" height="100%" width="100%">
+	<tr>
+		<td height="100%"><table cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
+			<tr>
+				<td><table cellspacing="0" cellpadding="2" border="0" bgcolor="White" width="100%">
+					<tr>
+						<td class="NoPaddingAndTransparent" cellspacing="0" cellpadding="0" bgcolor="White" width="100%"><div class="box box-solid default-box"><div class="box-body"> 
+<div class='top-navigation' ><div class='root'><a class='navigate-path' href='contentnavigator.aspx?catid=2000'> Tin tức và Sự kiện</a></div><div class='child'><a class='navigate-path' href='contentnavigator.aspx?catid=2300'> Thông báo</a></div>
+</div><div class="box-footer"></div></div>
+
+<div class="box box-solid default-box"><div class="box-body"> 
+<div class="content-browser p-4">
+    
+    <div class="content-body"><div class="pubdate-hitcount w-100 mb-lg-1 mb-md-3"><div class="created-date mx-auto w-70 float-left text-primary mb-3">
+        Ngày đăng bài: 
+		04/09/2026  08:21</div><div class="hit-count mx-auto w-30 float-right text-danger text-right mb-3">
+        Lượt xem: 15243</div><div class="clearfix" /></div><div class="content-title">Thông báo lịch phục vụ của Thư viện theo ca từ ngày 07/9/2026</div><div class="content-body"><p style="text-align:justify"><span style="font-size:14px">Từ 07/9/2026, Bộ phận Phục vụ tại kho sách của Thư viện sẽ phục vụ bạn đọc theo ca như thường lệ, cụ thể như sau:</span></p>
+
+<p style="text-align:justify"><strong><span style="font-size:14px">1. Tại kho sách chính (Nhà TV1 - Thư viện):</span></strong></p>
+
+<p style="text-align:justify"><span style="font-size:14px">- Từ thứ 2 - thứ 6 hàng tuần: Phục vụ 3 ca mỗi ngày: </span></p>
+
+<table align="center" border="0" cellpadding="0.5" cellspacing="0.5" style="width:500px">
+	<tbody>
+		<tr>
+			<td><span style="font-size:14px">Sáng: Từ 7h00 - 11h30</span></td>
+		</tr>
+		<tr>
+			<td><span style="font-size:14px">Chiều: Từ 13h30 - 17h00</span></td>
+		</tr>
+		<tr>
+			<td><span style="font-size:14px">Tối: Từ  17h00- 21h00</span></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>- Thứ 7 và Chủ nhật: Chỉ phục vụ trong giờ hành chính (ca ngày, không phục vụ ca buổi tối)</p>
+
+<p><em> <strong>  </strong></em><u><em><strong>Lưu ý:</strong></em></u><strong> </strong> Chiều chủ nhật hàng tuần, Bộ phận phục vụ dọn dẹp, vệ sinh kho sách.</p>
+
+<p>                Sinh viên hạn chế giao dịch mượn, trả sách tại kho.</p>
+
+<p>                Các khu vực tự học: Sinh viên vẫn sử dụng bình thường.</p>
+
+<p><strong>2. Tại phòng đọc Khu vực Nhà Truyền Thống (Gồm phòng đọc Nhà Truyền thống và phòng đọc kế bên Nhà Truyền Thống tại tầng 2 khu tự học Cây si)</strong></p>
+
+<p>- Phục vụ từ thứ 2 đến chủ nhật hàng tuần, từ 7h00 đến 21h00 mỗi ngày.</p>
+
+<p><strong><em><u> Lưu ý:</u></em></strong>  Phòng đọc Nhà Truyền thống chủ yếu phục vụ không gian học tập và sách văn học, lịch sử, địa lý. Người dùng có nhu cầu về các loại sách khác vui lòng đến Kho sách chính (Nhà TV1 - Thư viện).</p>
+
+<p>Trung tâm Thông tin và Tư liệu, trân trọng thông báo đến quý bạn đọc !</p>
+
+<p style="text-align:right"><strong>TRUNG TÂM THÔNG TIN VÀ TƯ LIỆU</strong></p>
+</div><div class="socials-share"><ul><li class="google-plus-share"><a href="&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;https://plus.google.com/share?url=&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;" target="_blank">
+						Google +</a></li><li class="fb-share"><a href="&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;https://www.facebook.com/sharer/sharer.php?u=&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;" target="_blank">
+						Chia sẻ</a></li></ul><div class="fb-like" data-href="https://developers.facebook.com/tttv.dhhp/" data-width="100" data-layout="button_count" data-action="like" data-size="large" data-show-faces="false" data-share="false" /></div></div>
+</div>
+</div><div class="box-footer"></div></div>
+
+<div class="box box-solid box-color5"><div class="box-header"><div class="box-header-left"></div><div class="box-header-center">Tin bài khác</div><div class="box-header-right"></div></div><div class="box-body"> 
+<div class="content-list-folder"><a class="title text-justify" href="/News.aspx?contentid=527" data-toggle="tooltip" title="Thông báo v/v Tập huấn sử dụng thư viện năm học 2026-2027 cho sinh viên khóa 68"><span class="icon-point">Thông báo v/v Tập huấn sử dụng thư viện năm học 2026-2027 cho sinh viên khóa 68</span></a></div><div class="content-list-folder"><a class="title text-justify" href="/News.aspx?contentid=523" data-toggle="tooltip" title="Thông báo Lịch phục vụ tại kho sách (Tòa nhà TV1-Thư viện) dịp hè 2026"><span class="icon-point">Thông báo Lịch phục vụ tại kho sách (Tòa nhà TV1-Thư viện) dịp hè 2026</span></a></div><div class="content-list-folder"><a class="title text-justify" href="/News.aspx?contentid=520" data-toggle="tooltip" title="Thông báo thu nhận ĐA/KL đối với sinh viên K64"><span class="icon-point">Thông báo thu nhận ĐA/KL đối với sinh viên K64</span></a></div><div class="content-list-folder"><a class="title text-justify" href="/News.aspx?contentid=517" data-toggle="tooltip" title="Thông báo lịch nghỉ Lễ Giỗ Tổ Hùng Vương, 30/4 và ngày Quốc tế lao động năm 2026"><span class="icon-point">Thông báo lịch nghỉ Lễ Giỗ Tổ Hùng Vương, 30/4 và ngày Quốc tế lao động năm 2026</span></a></div><div class="content-list-folder"><a class="title text-justify" href="/News.aspx?contentid=515" data-toggle="tooltip" title="Thông báo tổ chức Hội sách Nha Trang University 2026 ( từ 17/4 - 18/4/2026)"><span class="icon-point">Thông báo tổ chức Hội sách Nha Trang University 2026 ( từ 17/4 - 18/4/2026)</span></a></div><div class="content-list-folder"><a class="title text-justify" href="/News.aspx?contentid=514" data-toggle="tooltip" title="Thông báo tạm ngưng phục vụ sáng 5/4/2026"><span class="icon-point">Thông báo tạm ngưng phục vụ sáng 5/4/2026</span></a></div><div class="content-list-folder"><a class="title text-justify" href="/News.aspx?contentid=510" data-toggle="tooltip" title="Thông báo lịch phục vụ và nghỉ Tết của Trung tâm Thông tin và Tư liệu dịp Tết 2026"><span class="icon-point">Thông báo lịch phục vụ và nghỉ Tết của Trung tâm Thông tin và Tư liệu dịp Tết 2026</span></a></div><div class="content-list-folder"><a class="title text-justify" href="/News.aspx?contentid=508" data-toggle="tooltip" title="Thông báo điều chỉnh thời gian mở cửa Phòng đọc tại khu vực Nhà truyền thống từ 01/02/2026 (phục vụ từ 7 giờ - 21 giờ mỗi ngày)"><span class="icon-point">Thông báo điều chỉnh thời gian mở cửa Phòng đọc tại khu vực Nhà truyền thống từ 01/02/2026 (phục vụ từ 7 giờ - 21 giờ mỗi ngày)</span></a></div><div class="content-list-folder"><a class="title text-justify" href="/News.aspx?contentid=507" data-toggle="tooltip" title="Thông báo tạm ngưng phục vụ ca tối ngày 30/01/2026"><span class="icon-point">Thông báo tạm ngưng phục vụ ca tối ngày 30/01/2026</span></a></div><div class="content-list-folder"><a class="title text-justify" href="/News.aspx?contentid=504" data-toggle="tooltip" title="Thông báo v/v dùng thử  CSDL của EBSCO"><span class="icon-point">Thông báo v/v dùng thử  CSDL của EBSCO</span></a></div>
+</div><div class="box-footer"></div></div>
+</td>
+					</tr>
+				</table></td>
+			</tr><tr>
+				<td><table cellspacing="0" cellpadding="2" border="0" bgcolor="White" width="100%">
+					<tr>
+						<td class="NoPaddingAndTransparent" cellspacing="0" cellpadding="0" bgcolor="White" width="100%"><div class="box box-solid box-default"><div class="box-header"><div class="box-header-left"></div><div class="box-header-center">Nhận xét</div><div class="box-header-right"></div></div><div class="box-body"> 
+
+<div id="ctl00_WebPartManagerPanel1_WebPartManagerMain_wp779749257_wp1665128017_comment" class="">
+   
+    <div id="ctl00_WebPartManagerPanel1_WebPartManagerMain_wp779749257_wp1665128017_divUserView" class="comment-view">
+        <input type="hidden" name="ctl00$WebPartManagerPanel1$WebPartManagerMain$wp779749257$wp1665128017$hfCommentID" id="ctl00_WebPartManagerPanel1_WebPartManagerMain_wp779749257_wp1665128017_hfCommentID" />
+        <div class="table-responsive p-2">
+            <table id="example" class="table table-striped table-bordered table-hover table-sm dt-responsive nowrap" style="width:100%">
+              
+                     
+                 
+            </table>
+        </div>
+   </div>
+   
+   
+</div>
+</div><div class="box-footer"></div></div></td>
+					</tr>
+				</table></td>
+			</tr><tr>
+				<td height="100%"></td>
+			</tr>
+		</table></td>
+	</tr>
+</table>	    	   	    
+            </div>
+            <div class="col-lg-3 pl-md-1 pl-sm-0 pr-0">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="zone-space-top"></div>
+	                    <table cellspacing="0" cellpadding="0" border="0" id="ctl00_BodyPlaceHolder_WebPartZone2" height="100%" width="100%">
+	<tr>
+		<td height="100%"><table cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
+			<tr>
+				<td><table cellspacing="0" cellpadding="2" border="0" bgcolor="White" width="100%">
+					<tr>
+						<td class="NoPaddingAndTransparent" cellspacing="0" cellpadding="0" bgcolor="White" width="100%"><div class="box box-solid box-color1"><div class="box-header"><div class="box-header-left"></div><div class="box-header-center"><a href='contentnavigator.aspx?catid=2300'>Thông báo</a></div><div class="box-header-right"></div></div><div class="box-body"> 
+<div class="content-list01">
+    <div class="content-list-folder"><a class="title text-justify" href="/news.aspx/app_themes/ntu/images/Scripts/Umd/js/App_themes/ntu/images/banner_NTU_mobile.jpg?catid=2300&amp;contentid=527" data-toggle="tooltip" title="Thông báo v/v Tập huấn sử dụng thư viện năm học 2026-2027 cho sinh viên khóa 68"><span class="icon-point">Thông báo v/v Tập huấn sử dụng thư viện năm học 2026-2027 cho sinh viên khóa 68</span></a></div><div class="content-list-folder"><a class="title text-justify" href="/news.aspx/app_themes/ntu/images/Scripts/Umd/js/App_themes/ntu/images/banner_NTU_mobile.jpg?catid=2300&amp;contentid=526" data-toggle="tooltip" title="Thông báo lịch phục vụ của Thư viện theo ca từ ngày 07/9/2026"><span class="icon-point">Thông báo lịch phục vụ của Thư viện theo ca từ ngày 07/9/2026</span></a></div><div class="content-list-folder"><a class="title text-justify" href="/news.aspx/app_themes/ntu/images/Scripts/Umd/js/App_themes/ntu/images/banner_NTU_mobile.jpg?catid=2300&amp;contentid=523" data-toggle="tooltip" title="Thông báo Lịch phục vụ tại kho sách (Tòa nhà TV1-Thư viện) dịp hè 2026"><span class="icon-point">Thông báo Lịch phục vụ tại kho sách (Tòa nhà TV1-Thư viện) dịp hè 2026</span></a></div><div class="content-list-folder"><a class="title text-justify" href="/news.aspx/app_themes/ntu/images/Scripts/Umd/js/App_themes/ntu/images/banner_NTU_mobile.jpg?catid=2300&amp;contentid=520" data-toggle="tooltip" title="Thông báo thu nhận ĐA/KL đối với sinh viên K64"><span class="icon-point">Thông báo thu nhận ĐA/KL đối với sinh viên K64</span></a></div><div class="content-list-folder"><a class="title text-justify" href="/news.aspx/app_themes/ntu/images/Scripts/Umd/js/App_themes/ntu/images/banner_NTU_mobile.jpg?catid=2300&amp;contentid=517" data-toggle="tooltip" title="Thông báo lịch nghỉ Lễ Giỗ Tổ Hùng Vương, 30/4 và ngày Quốc tế lao động năm 2026"><span class="icon-point">Thông báo lịch nghỉ Lễ Giỗ Tổ Hùng Vương, 30/4 và ngày Quốc tế lao động năm 2026</span></a></div><div class="content-list-folder"><a class="title text-justify" href="/news.aspx/app_themes/ntu/images/Scripts/Umd/js/App_themes/ntu/images/banner_NTU_mobile.jpg?catid=2300&amp;contentid=515" data-toggle="tooltip" title="Thông báo tổ chức Hội sách Nha Trang University 2026 ( từ 17/4 - 18/4/2026)"><span class="icon-point">Thông báo tổ chức Hội sách Nha Trang University 2026 ( từ 17/4 - 18/4/2026)</span></a></div>
+</div>
+</div><div class="box-footer"></div></div>
+</td>
+					</tr>
+				</table></td>
+			</tr><tr>
+				<td height="100%"></td>
+			</tr>
+		</table></td>
+	</tr>
+</table>
+                    </div>
+                    <div class="col-xl-12">
+                        <div class="zone-space-top"></div>
+                        <table cellspacing="0" cellpadding="0" border="0" id="ctl00_BodyPlaceHolder_WebPartZone3" height="100%" width="100%">
+	<tr>
+		<td height="100%"><table cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
+			<tr>
+				<td><table cellspacing="0" cellpadding="2" border="0" bgcolor="White" width="100%">
+					<tr>
+						<td class="NoPaddingAndTransparent" cellspacing="0" cellpadding="0" bgcolor="White" width="100%"><div class="box box-solid box-color1"><div class="box-header"><div class="box-header-left"></div><div class="box-header-center"><a href='contentnavigator.aspx?catid=2100'>Tin tức & Sự kiện</a></div><div class="box-header-right"></div></div><div class="box-body"> 
+<div class="content-list01">
+    <div class="content-list-folder"><a class="title text-justify" href="News.aspx?catid=2100&amp;contentid=525" data-toggle="tooltip" title="Thư viện CHÀO ĐÓN-  ĐỒNG HÀNH cùng Sinh viên NTU  khoá 68"><span class="icon-point">Thư viện CHÀO ĐÓN-  ĐỒNG HÀNH cùng Sinh viên NTU  khoá 68</span></a></div><div class="content-list-folder"><a class="title text-justify" href="News.aspx?catid=2100&amp;contentid=524" data-toggle="tooltip" title="Đại học Nha Trang - Học viện Lục quân Đà Lạt: Chia sẻ kinh nghiệm, thúc đẩy chuyển đổi số thư viện"><span class="icon-point">Đại học Nha Trang - Học viện Lục quân Đà Lạt: Chia sẻ kinh nghiệm, thúc đẩy chuyển đổi số thư viện</span></a></div><div class="content-list-folder"><a class="title text-justify" href="News.aspx?catid=2100&amp;contentid=522" data-toggle="tooltip" title="Giới thiệu danh mục tài liệu mới đưa vào phục vụ bạn đọc trong tháng 6/2026"><span class="icon-point">Giới thiệu danh mục tài liệu mới đưa vào phục vụ bạn đọc trong tháng 6/2026</span></a></div><div class="content-list-folder"><a class="title text-justify" href="News.aspx?catid=2100&amp;contentid=521" data-toggle="tooltip" title="Trung tâm Thông tin và Tư liệu đón tiếp CEO  Atagrow và tiếp nhận món quà tri thức dành cho sinh viên NTU"><span class="icon-point">Trung tâm Thông tin và Tư liệu đón tiếp CEO  Atagrow và tiếp nhận món quà tri thức dành cho sinh viên NTU</span></a></div><div class="content-list-folder"><a class="title text-justify" href="News.aspx?catid=2100&amp;contentid=519" data-toggle="tooltip" title="Lời cảm ơn đến Quý Thầy, Cô tặng sách cho Trung tâm Thông tin và Tư liệu trong dịp hội sách tháng 4/2026"><span class="icon-point">Lời cảm ơn đến Quý Thầy, Cô tặng sách cho Trung tâm Thông tin và Tư liệu trong dịp hội sách tháng 4/2026</span></a></div><div class="content-list-folder"><a class="title text-justify" href="News.aspx?catid=2100&amp;contentid=518" data-toggle="tooltip" title="Giới thiệu danh mục tài liệu mới đưa vào phục vụ bạn đọc"><span class="icon-point">Giới thiệu danh mục tài liệu mới đưa vào phục vụ bạn đọc</span></a></div>
+</div>
+</div><div class="box-footer"></div></div>
+</td>
+					</tr>
+				</table></td>
+			</tr><tr>
+				<td height="100%"></td>
+			</tr>
+		</table></td>
+	</tr>
+</table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            <div id="divAboutUsRight" class="about-us float-right ml-0 mr-2">
+                <ul>
+                    <li><a class="zl" title="Chat với thủ thư" href="" target="_blank"></a></li>
+                    <li><a class="fb" href="https://www.facebook.com/thuvien.ntu.edu.vn/" target="_blank"></a></li>
+                    <li><a class="tw" href="" target="_blank"></a></li>
+                    <li><a class="yt" href="" target="_blank"></a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div id="footer" class="w-100">
+            <div class="master-footer mx-auto p-1 row">
+                <div id="footer_logo" class="col-lg-2 pr-1 d-none d-lg-flex align-items-center">
+                    <img src="../App_themes/ntu/images/logo_DaiHocNhaTrang.png" alt="logo NTU" border="0" class="ml-auto" style="width: 95px;" />
+                </div>
+                <div id="footer_left" class="col-lg-6 col-md-8 col-sm-12  pl-sm-3 pr-1">
+                    <div class="website-info mt-3 mb-0">
+                        <div><b>Bản quyền thuộc về Trung tâm Thông tin và Tư liệu Trường Đại học Nha Trang</b></div>
+                        <div><b>Địa chỉ:</b> Số 2 Nguyễn Đình Chiểu - Phường Bắc Nha Trang - Khánh Hòa</div>
+                        <div><b>Email:</b> tttl@ntu.edu.vn</div>
+                        <div><b>Điện thoại:</b> </div>
+                    </div>
+                </div>
+                 <div id="footer_right" class="col-lg-4 col-md-4 col-sm-12 pl-sm-3 pr-1">
+                    <table cellspacing="0" cellpadding="0" border="0" id="ctl00_WebPartZoneFooter" bgcolor="Transparent" height="100%" width="100%">
+	<tr>
+		<td height="100%"><table cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
+			<tr>
+				<td><table cellspacing="0" cellpadding="2" border="0" bgcolor="White" width="100%">
+					<tr>
+						<td class="WebPartTitle"><table cellspacing="0" cellpadding="0" border="0" width="100%">
+							<tr>
+								<td width="100%" nowrap="nowrap"><span title="LegoWeb-Gadget&#32;Website&#32;Info">LegoWeb-Gadget Website Info</span>&nbsp;</td>
+							</tr>
+						</table></td>
+					</tr><tr>
+						<td class="NoPaddingAndTransparent" cellspacing="0" cellpadding="0" bgcolor="White" width="100%">
+<div class="website-info mt-3 mb-0">
+    <ul class="pl-5">
+        
+        <li class="today">Hôm nay: 13 Tháng Chín 2026</li>
+
+        
+        <li class="online-now"><span class="fa fa-eye mr-2"></span>
+            Người dùng online: 2.107
+        </li>
+        
+        <li class="online-day">
+            <span class="fa fa-calendar-check-o mr-2"></span>
+            Lượt truy cập hôm nay: 
+             106.207
+        </li>
+        
+        <li class="online-week">
+            <span class="fa fa-calendar-minus-o mr-2"></span>
+            Lượt truy cập tuần này: 
+            106.207
+        </li>
+        
+        <li class="online-month">
+            <span class="fa fa-calendar mr-2"></span>
+            Lượt truy cập tháng này: 
+            3.278.044
+        </li>
+        
+        <li class="online-all">
+            <span class="fa fa-bar-chart mr-2"></span>
+            Tổng lượt truy cập: 
+            223.901.049
+        </li>
+        
+    </ul>
+</div>
+
+
+</td>
+					</tr>
+				</table></td>
+			</tr><tr>
+				<td height="100%"></td>
+			</tr>
+		</table></td>
+	</tr>
+</table>
+                </div>
+            </div>
+        </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+var __wpmExportWarning='This Web Part Page has been personalized. As a result, one or more Web Part properties may contain confidential information. Make sure the properties contain information that is safe for others to read. After exporting this Web Part, view properties in the Web Part description file (.WebPart) by using a text editor such as Microsoft Notepad.';var __wpmCloseProviderWarning='You are about to close this Web Part.  It is currently providing data to other Web Parts, and these connections will be deleted if this Web Part is closed.  To close this Web Part, click OK.  To keep this Web Part, click Cancel.';var __wpmDeleteWarning='You are about to permanently delete this Web Part.  Are you sure you want to do this?  To delete this Web Part, click OK.  To keep this Web Part, click Cancel.';//]]>
+</script>
+</form>
+
+    <script type="text/javascript">
+        //var PatronID = '';
+       // var Count = '';
+        //  document.getElementById("BibCartItemCount").innerHTML = Count;
+    </script>
+    <script type="text/javascript">
+        !function ($) {
+            $(document).on("click", "#MenuHeading1 ul.nav li.parent > div.row > div.col-2 > span.sign", function () {
+                $(this).find('span:first').toggleClass("fa-window-minimize");
+            });
+
+            // Open Le current menu
+            $("#MenuHeading1 ul.nav li.parent.active > div.row > div.col-2 > span.sign").find('span:first').addClass("fa-plus-square");
+            $("#MenuHeading1 ul.nav li.current").parents('ul.children').addClass("in");
+
+        }(window.jQuery);
+    </script>
+
+</body>
+</html>

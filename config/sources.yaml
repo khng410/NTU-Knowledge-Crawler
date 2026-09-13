@@ -1,0 +1,24 @@
+allowed_domains:
+  - ntu.edu.vn
+  - ctdt.ntu.edu.vn
+  - pdtdaihoc.ntu.edu.vn
+  - pdtsaudaihoc.ntu.edu.vn
+  - phongctsv.ntu.edu.vn
+  - phongkhtc.ntu.edu.vn
+  - phongcntt.ntu.edu.vn
+  - phongdbcl.ntu.edu.vn
+  - tuyensinh.ntu.edu.vn
+  - xettuyen.ntu.edu.vn
+  - sinhvien.ntu.edu.vn
+  - htdnhtsv.ntu.edu.vn
+  - daotao.ntu.edu.vn
+  - thuvien.ntu.edu.vn
+  - thanhnien.ntu.edu.vn
+  - trungtamdtbd.ntu.edu.vn
+  - trungtampvth.ntu.edu.vn
+
+legal_sources:
+  - vanban.chinhphu.vn
+  - chinhphu.vn
+  - xaydungchinhsach.chinhphu.vn
+  - moet.gov.vn

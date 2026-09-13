@@ -1,0 +1,158 @@
+program:
+  required:
+    - program_id
+    - major_code
+    - cohort
+    - source_url
+    - crawl_status
+    - content_status
+    - retrieved_at
+  crawl_status:
+    - pending
+    - success
+    - missing
+    - failed
+  content_status:
+    - complete
+    - draft_empty
+    - inconsistent
+    - api_absent
+  credit_status:
+    - verified
+    - not_stated
+  credit_method:
+    - api_group_totals
+    - official_pdf_explicit
+    - official_html_explicit
+
+program_gap:
+  required: [gap_id, major_code, cohort, gap_status, evidence_url, retrieved_at]
+  gap_status: [api_absent, not_applicable, located, needs_official_confirmation]
+  rule: absence from the current API is not evidence that a curriculum never existed
+
+course:
+  required:
+    - course_id
+    - course_name
+    - program_id
+    - source_url
+    - retrieved_at
+  nullable_without_explicit_evidence:
+    - prerequisite
+    - semester
+
+cohorts:
+  - K63
+  - K64
+  - K65
+  - K66
+  - K67
+  - K68
+
+graduate_program:
+  required:
+    - program_id
+    - degree_level
+    - major_code
+    - program_name
+    - source_url
+    - retrieved_at
+  distinct_fields:
+    - language_entry_requirement
+    - language_exit_requirement
+
+graduate_admission:
+  required:
+    - admission_id
+    - degree_level
+    - admission_year
+    - title
+    - source_url
+    - retrieved_at
+
+procedure_candidate:
+  required:
+    - candidate_id
+    - name
+    - matched_keywords
+    - source_url
+    - source_domain
+    - status
+    - retrieved_at
+
+procedure:
+  required: [procedure_id, name, source_url, retrieved_at, status]
+  status: [candidate, verified]
+  procedure_kind: [workflow, official_form]
+  rule: an official form verifies the form and named routing only, not an unstated processing deadline
+
+admission:
+  required: [admission_id, year, admission_code, major_name, source_url, year_source_url, retrieved_at]
+  rule: admission year must be explicit in year_source_url
+
+financial_policy:
+  required: [policy_id, policy_type, source_url, retrieved_at, status]
+  nullable_without_explicit_evidence:
+    - beneficiary
+    - amount
+    - percentage
+    - academic_year
+    - cohort
+    - deadline
+    - legal_basis
+  policy_type:
+    - tuition_rule
+    - tuition_notice
+    - debt_rule
+    - payment_extension
+    - exemption
+    - social_support
+    - scholarship
+    - insurance
+  policy_scope: [national_legal, ntu_implementation, semester_notice]
+  status: [unresolved, current, historical]
+  rule: every status is accompanied by a verification note; expired notices are historical
+
+source_candidate:
+  status: [unresolved, index_only]
+  rule: generic topic and index pages remain candidates and are not materialized as policies
+
+unit:
+  required: [unit_id, name, source_url, retrieved_at]
+  nullable_without_explicit_evidence: [address, phone, email, working_hours]
+
+student_service:
+  required: [service_id, unit_id, name, source_url, citation, retrieved_at, status]
+  status: [verified]
+  rule: one official source per service; named staff and personal mobile numbers are not retained
+
+discipline_rule:
+  required: [rule_id, behavior, citation, source_url, retrieved_at, status]
+  occurrence_columns:
+    - first_violation
+    - second_violation
+    - third_violation
+    - fourth_violation
+    - fifth_violation
+  status: [verified_ocr, verified_manual, partial_ocr]
+  rule: unreadable OCR cells remain null and every row cites its PDF page
+
+fact:
+  required:
+    - id
+    - logical_key
+    - entity
+    - type
+    - content
+    - source_url
+    - source_domain
+    - source_type
+    - status
+    - confidence
+    - retrieved_at
+  status: [current, historical]
+  confidence: [Cao, Trung bình, Thấp]
+
+crawl_task:
+  required: [run_id, task, status, started_at]
+  status: [pending, running, success, failed]

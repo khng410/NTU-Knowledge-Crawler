@@ -1,0 +1,432 @@
+[
+  {
+    "section": 1,
+    "entity": "Phòng Hạ tầng và Công nghệ Thông tin",
+    "fact_type": "đơn vị",
+    "content": "Hỗ trợ các vấn đề liên quan đến tài khoản, thư điện tử của sinh viên.",
+    "relation": "",
+    "citation": "mục “Các đơn vị chức năng”, mục 6",
+    "document": "Trang Liên hệ NTU",
+    "url": "https://ntu.edu.vn/lien-he"
+  },
+  {
+    "section": 1,
+    "entity": "Phòng Kế hoạch - Tài chính",
+    "fact_type": "đơn vị",
+    "content": "Tiếp nhận việc đóng học phí, đóng bảo hiểm y tế, bảo hiểm thân thể và lĩnh tiền học bổng.",
+    "relation": "",
+    "citation": "mục “Các đơn vị chức năng”, mục 3",
+    "document": "Trang Liên hệ NTU",
+    "url": "https://ntu.edu.vn/lien-he"
+  },
+  {
+    "section": 1,
+    "entity": "Trung tâm Giáo dục quốc phòng và An ninh",
+    "fact_type": "đơn vị",
+    "content": "Tiếp nhận đăng ký hoặc hủy học phần Giáo dục thể chất và Giáo dục quốc phòng - an ninh.",
+    "relation": "",
+    "citation": "mục “Các đơn vị chức năng”, mục 8",
+    "document": "Trang Liên hệ NTU",
+    "url": "https://ntu.edu.vn/lien-he"
+  },
+  {
+    "section": 2,
+    "entity": "Tài khoản website sinh viên",
+    "fact_type": "quy tắc",
+    "content": "Tài khoản đăng nhập website là mã số sinh viên.",
+    "relation": "áp dụng cho → sinh viên",
+    "citation": "dòng 1 dưới tiêu đề “Hướng dẫn đăng nhập website sinh viên và sử dụng Email sinh viên”",
+    "document": "Hướng dẫn đăng nhập website sinh viên và sử dụng Email sinh viên",
+    "url": "https://phongcntt.ntu.edu.vn/thong-bao/huong-dan-dang-nhap-website-sinh-vien-va-su-dung-email-sinh-vien"
+  },
+  {
+    "section": 2,
+    "entity": "Mật khẩu mặc định website sinh viên",
+    "fact_type": "quy tắc",
+    "content": "Mật khẩu mặc định là số CCCD, CMND hoặc ngày sinh khi đăng ký xét tuyển.",
+    "relation": "áp dụng cho → sinh viên",
+    "citation": "dòng 1 dưới tiêu đề “Hướng dẫn đăng nhập website sinh viên và sử dụng Email sinh viên”",
+    "document": "Hướng dẫn đăng nhập website sinh viên và sử dụng Email sinh viên",
+    "url": "https://phongcntt.ntu.edu.vn/thong-bao/huong-dan-dang-nhap-website-sinh-vien-va-su-dung-email-sinh-vien"
+  },
+  {
+    "section": 2,
+    "entity": "Email sinh viên",
+    "fact_type": "khái niệm",
+    "content": "Sau khi đăng nhập website, sinh viên vào mục “Thông tin sinh viên” để xem địa chỉ email tên miền ntu.edu.vn.",
+    "relation": "áp dụng cho → sinh viên",
+    "citation": "dòng 2 dưới tiêu đề “Hướng dẫn đăng nhập website sinh viên và sử dụng Email sinh viên”",
+    "document": "Hướng dẫn đăng nhập website sinh viên và sử dụng Email sinh viên",
+    "url": "https://phongcntt.ntu.edu.vn/thong-bao/huong-dan-dang-nhap-website-sinh-vien-va-su-dung-email-sinh-vien"
+  },
+  {
+    "section": 2,
+    "entity": "Mật khẩu website và email sinh viên",
+    "fact_type": "quy tắc",
+    "content": "Sinh viên được yêu cầu đổi mật khẩu và không sử dụng mật khẩu mặc định của Nhà trường cho website và email.",
+    "relation": "áp dụng cho → sinh viên",
+    "citation": "ghi chú cuối hướng dẫn",
+    "document": "Hướng dẫn đăng nhập website sinh viên và sử dụng Email sinh viên",
+    "url": "https://phongcntt.ntu.edu.vn/thong-bao/huong-dan-dang-nhap-website-sinh-vien-va-su-dung-email-sinh-vien"
+  },
+  {
+    "section": 2,
+    "entity": "Đóng học phí qua VnPay",
+    "fact_type": "thủ tục",
+    "content": "Truy cập website sinhvien.ntu.edu.vn, chọn học phí và đóng học phí qua cổng thanh toán VnPay.",
+    "relation": "nộp tại → sinhvien.ntu.edu.vn",
+    "citation": "mục 1",
+    "document": "Thông báo cách thức nộp học phí sinh viên",
+    "url": "https://phongcntt.ntu.edu.vn/thong-bao/thong-bao-cach-thuc-nop-hoc-phi-sinh-vien"
+  },
+  {
+    "section": 2,
+    "entity": "Đóng học phí bằng QR Code",
+    "fact_type": "thủ tục",
+    "content": "Sinh viên có thể thanh toán bằng ứng dụng ngân hàng quét mã QR Code.",
+    "relation": "",
+    "citation": "mục 1",
+    "document": "Thông báo cách thức nộp học phí sinh viên",
+    "url": "https://phongcntt.ntu.edu.vn/thong-bao/thong-bao-cach-thuc-nop-hoc-phi-sinh-vien"
+  },
+  {
+    "section": 2,
+    "entity": "Giấy xác nhận vay vốn online",
+    "fact_type": "biểu mẫu",
+    "content": "Giấy xác nhận vay vốn được in từ phần mềm quản lý sinh viên theo Mẫu 01/TDSV.",
+    "relation": "dùng mẫu → Mẫu 01/TDSV",
+    "citation": "mục “ĐĂNG KÝ GIẤY XÁC NHẬN VAY VỐN ONLINE”",
+    "document": "Quy trình xử lý công việc Phòng CTSV",
+    "url": "https://phongctsv.ntu.edu.vn/van-ban-bieu-mau/quy-trinh-xu-ly-cong-viec"
+  },
+  {
+    "section": 2,
+    "entity": "Giấy xác nhận vay vốn online",
+    "fact_type": "thủ tục",
+    "content": "Sinh viên nhận bản cứng giấy xác nhận vay vốn tại Phòng CTCTSV, phòng 114.",
+    "relation": "nộp tại → Phòng CTCTSV, phòng 114",
+    "citation": "mục “ĐĂNG KÝ GIẤY XÁC NHẬN VAY VỐN ONLINE”, dòng “Địa điểm nhận giấy”",
+    "document": "Quy trình xử lý công việc Phòng CTSV",
+    "url": "https://phongctsv.ntu.edu.vn/van-ban-bieu-mau/quy-trinh-xu-ly-cong-viec"
+  },
+  {
+    "section": 2,
+    "entity": "Giấy xác nhận vay vốn online",
+    "fact_type": "thủ tục",
+    "content": "Thời gian nhận giấy là 04 ngày sau khi đăng ký, không tính thứ Bảy và Chủ nhật.",
+    "relation": "thời hạn → 04 ngày, không tính thứ Bảy và Chủ nhật",
+    "citation": "mục “ĐĂNG KÝ GIẤY XÁC NHẬN VAY VỐN ONLINE”, dòng “Thời gian”",
+    "document": "Quy trình xử lý công việc Phòng CTSV",
+    "url": "https://phongctsv.ntu.edu.vn/van-ban-bieu-mau/quy-trinh-xu-ly-cong-viec"
+  },
+  {
+    "section": 2,
+    "entity": "Giấy chứng nhận sinh viên đang học",
+    "fact_type": "thủ tục",
+    "content": "Sinh viên liên hệ thư ký văn phòng khoa hoặc viện quản lý ngành học để xin cấp giấy chứng nhận đang học tại trường.",
+    "relation": "nộp tại → Khoa/Viện quản lý ngành học",
+    "citation": "mục “Các đơn vị chức năng”, mục 10",
+    "document": "Trang Liên hệ NTU",
+    "url": "https://ntu.edu.vn/lien-he"
+  },
+  {
+    "section": 2,
+    "entity": "Phúc khảo bài thi",
+    "fact_type": "thủ tục",
+    "content": "Sinh viên nộp đơn phúc khảo tại khoa hoặc viện quản lý ngành học.",
+    "relation": "nộp tại → Khoa/Viện quản lý ngành học",
+    "citation": "mục “Các đơn vị chức năng”, mục 10",
+    "document": "Trang Liên hệ NTU",
+    "url": "https://ntu.edu.vn/lien-he"
+  },
+  {
+    "section": 2,
+    "entity": "Thẻ sinh viên",
+    "fact_type": "thủ tục",
+    "content": "Phòng Công tác Chính trị và Sinh viên tiếp nhận việc in thẻ sinh viên.",
+    "relation": "xử lý bởi → Phòng Công tác Chính trị và Sinh viên",
+    "citation": "mục “Các đơn vị chức năng”, mục 1",
+    "document": "Trang Liên hệ NTU",
+    "url": "https://ntu.edu.vn/lien-he"
+  },
+  {
+    "section": 2,
+    "entity": "Nhập học K68 năm 2026",
+    "fact_type": "thủ tục",
+    "content": "Thí sinh đăng ký ở ký túc xá tại địa chỉ xettuyen.ntu.edu.vn/NhapHoc.",
+    "relation": "nộp tại → xettuyen.ntu.edu.vn/NhapHoc",
+    "citation": "Quy trình tổ chức nhập học, Bước 2, mục “Đăng ký ở Ký túc xá”",
+    "document": "Hướng dẫn nhập học K68 năm 2026",
+    "url": "https://xettuyen.ntu.edu.vn/"
+  },
+  {
+    "section": 2,
+    "entity": "Nhập học K68 năm 2026",
+    "fact_type": "thủ tục",
+    "content": "Thời gian đăng ký ký túc xá và đóng học phí trực tuyến từ ngày 12/08/2026 đến ngày 23/08/2026.",
+    "relation": "thời hạn → 12/08/2026–23/08/2026",
+    "citation": "Quy trình tổ chức nhập học, Bước 2",
+    "document": "Hướng dẫn nhập học K68 năm 2026",
+    "url": "https://xettuyen.ntu.edu.vn/"
+  },
+  {
+    "section": 2,
+    "entity": "Tuần sinh hoạt công dân - sinh viên K68 năm 2026",
+    "fact_type": "thủ tục",
+    "content": "Tuần sinh hoạt công dân - sinh viên đầu khóa diễn ra từ ngày 18/08/2026 đến ngày 20/08/2026.",
+    "relation": "áp dụng cho → sinh viên K68",
+    "citation": "mục “Các hoạt động sau nhập học”, dòng “SINH HOẠT CÔNG DÂN ĐẦU KHÓA”",
+    "document": "Trang Nhập học đại học NTU năm 2026",
+    "url": "https://tuyensinh.ntu.edu.vn/dai-hoc/nhap-hoc"
+  },
+  {
+    "section": 2,
+    "entity": "Học chính thức học kỳ 1 năm học 2026-2027",
+    "fact_type": "quy tắc",
+    "content": "Sinh viên K68 học chính thức từ ngày 07/09/2026.",
+    "relation": "áp dụng cho → sinh viên K68",
+    "citation": "mục “Các hoạt động sau nhập học”, dòng “HỌC CHÍNH THỨC HỌC KỲ 1/2026-2027”",
+    "document": "Trang Nhập học đại học NTU năm 2026",
+    "url": "https://tuyensinh.ntu.edu.vn/dai-hoc/nhap-hoc"
+  },
+  {
+    "section": 3,
+    "entity": "Bảo hiểm y tế sinh viên năm học 2026-2027",
+    "fact_type": "quy tắc",
+    "content": "Sinh viên phải thực hiện đóng bảo hiểm y tế bắt buộc theo thời gian quy định trong thông báo.",
+    "relation": "áp dụng cho → sinh viên năm học 2026-2027",
+    "citation": "thông báo “Đóng tiền BHYT, BHTT sinh viên năm học 2026-2027”, đoạn 1",
+    "document": "Cổng Sinh viên NTU",
+    "url": "https://sinhvien.ntu.edu.vn/"
+  },
+  {
+    "section": 3,
+    "entity": "Bảo hiểm thân thể sinh viên năm học 2026-2027",
+    "fact_type": "mức thu",
+    "content": "Mức phí bảo hiểm thân thể tự nguyện là 150.000 đồng cho 01 năm.",
+    "relation": "áp dụng cho → sinh viên có nhu cầu",
+    "citation": "thông báo “Đóng tiền BHYT, BHTT sinh viên năm học 2026-2027”, đoạn 1",
+    "document": "Cổng Sinh viên NTU",
+    "url": "https://sinhvien.ntu.edu.vn/"
+  },
+  {
+    "section": 3,
+    "entity": "Hồ sơ chính sách học kỳ I năm học 2026-2027",
+    "fact_type": "thủ tục",
+    "content": "Hồ sơ chế độ chính sách được nộp trực tiếp tại Phòng Công tác Chính trị và Sinh viên, phòng 114.",
+    "relation": "nộp tại → Phòng Công tác Chính trị và Sinh viên, phòng 114",
+    "citation": "thông báo “Nộp hồ sơ chính sách HKI 2026-2027”, dòng “Hồ sơ nộp trực tiếp”",
+    "document": "Cổng Sinh viên NTU",
+    "url": "https://sinhvien.ntu.edu.vn/"
+  },
+  {
+    "section": 5,
+    "entity": "Ký túc xá",
+    "fact_type": "khái niệm",
+    "content": "Các tòa ký túc xá được đặt trong khuôn viên Trường Đại học Nha Trang.",
+    "relation": "",
+    "citation": "mục 4 “Hệ thống ký túc xá”",
+    "document": "Trang Cơ sở vật chất NTU",
+    "url": "https://ntu.edu.vn/gioi-thieu/co-so-vat-chat"
+  },
+  {
+    "section": 9,
+    "entity": "Danh mục ngành áp dụng chính sách học bổng theo Nghị định 179/2026/NĐ-CP",
+    "fact_type": "quy tắc",
+    "content": "Ngành đào tạo quy định tại Phụ lục kèm theo Quyết định này được xác định theo mã ngành đào tạo thuộc Danh mục thống kê ngành đào tạo của giáo dục đại học do Bộ trưởng Bộ Giáo dục và Đào tạo ban hành.",
+    "relation": "quy định bởi → QĐ 1826/QĐ-BGDĐT",
+    "citation": "khoản 1 Điều 2",
+    "document": "QĐ 1826/QĐ-BGDĐT ngày 26/06/2026",
+    "url": "https://phongctsv.ntu.edu.vn/uploads/46/files/2026/269-qd-1826.pdf"
+  },
+  {
+    "section": 9,
+    "entity": "Chương trình có tên khác tên ngành trong chính sách học bổng",
+    "fact_type": "quy tắc",
+    "content": "Các chương trình đào tạo có thể có tên khác tên ngành nhưng được xếp vào một mã ngành đào tạo của một nhóm ngành.",
+    "relation": "quy định bởi → QĐ 1826/QĐ-BGDĐT",
+    "citation": "khoản 2 Điều 2",
+    "document": "QĐ 1826/QĐ-BGDĐT ngày 26/06/2026",
+    "url": "https://phongctsv.ntu.edu.vn/uploads/46/files/2026/269-qd-1826.pdf"
+  },
+  {
+    "section": 1,
+    "entity": "Phòng Công tác Chính trị và Sinh viên",
+    "fact_type": "đơn vị",
+    "content": "Địa chỉ: Tầng 1, Khu nhà Hiệu bộ.",
+    "relation": "",
+    "citation": "chân trang, dòng địa chỉ đơn vị",
+    "document": "Trang chủ Phòng Công tác Chính trị và Sinh viên",
+    "url": "https://phongctsv.ntu.edu.vn/"
+  },
+  {
+    "section": 1,
+    "entity": "Phòng Công tác Chính trị và Sinh viên",
+    "fact_type": "đơn vị",
+    "content": "Điện thoại: 0258 222 1900.",
+    "relation": "",
+    "citation": "chân trang, dòng điện thoại đơn vị",
+    "document": "Trang chủ Phòng Công tác Chính trị và Sinh viên",
+    "url": "https://phongctsv.ntu.edu.vn/"
+  },
+  {
+    "section": 1,
+    "entity": "Phòng Đào tạo Đại học",
+    "fact_type": "đơn vị",
+    "content": "Địa chỉ: Tầng 1, Tòa nhà Hiệu Bộ, Trường Đại học Nha Trang.",
+    "relation": "",
+    "citation": "chân trang, mục “Liên hệ”",
+    "document": "Trang chủ Phòng Đào tạo Đại học",
+    "url": "https://pdtdaihoc.ntu.edu.vn/"
+  },
+  {
+    "section": 1,
+    "entity": "Phòng Đào tạo Đại học",
+    "fact_type": "đơn vị",
+    "content": "Điện thoại: 0258 383 1148.",
+    "relation": "",
+    "citation": "chân trang, mục “Liên hệ”",
+    "document": "Trang chủ Phòng Đào tạo Đại học",
+    "url": "https://pdtdaihoc.ntu.edu.vn/"
+  },
+  {
+    "section": 1,
+    "entity": "Phòng Đào tạo Đại học",
+    "fact_type": "đơn vị",
+    "content": "Email: daotao@ntu.edu.vn.",
+    "relation": "",
+    "citation": "chân trang, mục “Liên hệ”",
+    "document": "Trang chủ Phòng Đào tạo Đại học",
+    "url": "https://pdtdaihoc.ntu.edu.vn/"
+  },
+  {
+    "section": 1,
+    "entity": "Phòng Tài chính",
+    "fact_type": "đơn vị",
+    "content": "Địa chỉ: Tòa nhà A8, Trường Đại học Nha Trang.",
+    "relation": "",
+    "citation": "chân trang, dòng địa chỉ đơn vị",
+    "document": "Trang chủ Phòng Tài chính",
+    "url": "https://phongkhtc.ntu.edu.vn/"
+  },
+  {
+    "section": 1,
+    "entity": "Phòng Tài chính",
+    "fact_type": "đơn vị",
+    "content": "Điện thoại: 0258 383 1150.",
+    "relation": "",
+    "citation": "chân trang, dòng điện thoại đơn vị",
+    "document": "Trang chủ Phòng Tài chính",
+    "url": "https://phongkhtc.ntu.edu.vn/"
+  },
+  {
+    "section": 1,
+    "entity": "Phòng Tài chính",
+    "fact_type": "đơn vị",
+    "content": "Email: khtc@ntu.edu.vn.",
+    "relation": "",
+    "citation": "chân trang, dòng email đơn vị",
+    "document": "Trang chủ Phòng Tài chính",
+    "url": "https://phongkhtc.ntu.edu.vn/"
+  },
+  {
+    "section": 1,
+    "entity": "Trung tâm Đào tạo và Bồi dưỡng",
+    "fact_type": "đơn vị",
+    "content": "Địa chỉ: Tòa nhà A3, 02 Nguyễn Đình Chiểu, Trường Đại học Nha Trang.",
+    "relation": "",
+    "citation": "chân trang, dòng địa chỉ đơn vị",
+    "document": "Trang chủ Trung tâm Đào tạo và Bồi dưỡng",
+    "url": "https://trungtamdtbd.ntu.edu.vn/"
+  },
+  {
+    "section": 1,
+    "entity": "Trung tâm Đào tạo và Bồi dưỡng",
+    "fact_type": "đơn vị",
+    "content": "Điện thoại: 0258 222 0913.",
+    "relation": "",
+    "citation": "chân trang, dòng điện thoại đơn vị",
+    "document": "Trang chủ Trung tâm Đào tạo và Bồi dưỡng",
+    "url": "https://trungtamdtbd.ntu.edu.vn/"
+  },
+  {
+    "section": 1,
+    "entity": "Trung tâm Đào tạo và Bồi dưỡng",
+    "fact_type": "đơn vị",
+    "content": "Email: ttdtbd@ntu.edu.vn.",
+    "relation": "",
+    "citation": "chân trang, dòng email đơn vị",
+    "document": "Trang chủ Trung tâm Đào tạo và Bồi dưỡng",
+    "url": "https://trungtamdtbd.ntu.edu.vn/"
+  },
+  {
+    "section": 5,
+    "entity": "Kho sách chính Nhà TV1 - Thư viện",
+    "fact_type": "đơn vị",
+    "content": "Từ thứ Hai đến thứ Sáu, kho sách chính phục vụ ba ca: 07:00–11:30, 13:30–17:00 và 17:00–21:00.",
+    "relation": "thời hạn → từ thứ Hai đến thứ Sáu",
+    "citation": "mục 1, dòng “Từ thứ 2 - thứ 6 hàng tuần”",
+    "document": "Thông báo lịch phục vụ của Thư viện theo ca từ ngày 07/09/2026",
+    "url": "https://thuvien.ntu.edu.vn/News.aspx?contentid=526"
+  },
+  {
+    "section": 5,
+    "entity": "Kho sách chính Nhà TV1 - Thư viện",
+    "fact_type": "đơn vị",
+    "content": "Thứ Bảy và Chủ nhật chỉ phục vụ trong giờ hành chính, không phục vụ ca buổi tối.",
+    "relation": "thời hạn → thứ Bảy và Chủ nhật",
+    "citation": "mục 1, dòng “Thứ 7 và Chủ nhật”",
+    "document": "Thông báo lịch phục vụ của Thư viện theo ca từ ngày 07/09/2026",
+    "url": "https://thuvien.ntu.edu.vn/News.aspx?contentid=526"
+  },
+  {
+    "section": 5,
+    "entity": "Phòng đọc khu vực Nhà Truyền Thống",
+    "fact_type": "đơn vị",
+    "content": "Phục vụ từ thứ Hai đến Chủ nhật, từ 07:00 đến 21:00 mỗi ngày.",
+    "relation": "thời hạn → 07:00–21:00 mỗi ngày",
+    "citation": "mục 2, dòng “Phục vụ từ thứ 2 đến chủ nhật hàng tuần”",
+    "document": "Thông báo lịch phục vụ của Thư viện theo ca từ ngày 07/09/2026",
+    "url": "https://thuvien.ntu.edu.vn/News.aspx?contentid=526"
+  },
+  {
+    "section": 5,
+    "entity": "Không gian tự học Thư viện",
+    "fact_type": "khái niệm",
+    "content": "Chiều Chủ nhật, sinh viên vẫn sử dụng các khu vực tự học bình thường trong thời gian kho sách hạn chế giao dịch mượn, trả sách.",
+    "relation": "áp dụng cho → chiều Chủ nhật",
+    "citation": "mục 1, phần “Lưu ý”",
+    "document": "Thông báo lịch phục vụ của Thư viện theo ca từ ngày 07/09/2026",
+    "url": "https://thuvien.ntu.edu.vn/News.aspx?contentid=526"
+  },
+  {
+    "section": 9,
+    "entity": "Nghị định 238/2025/NĐ-CP",
+    "fact_type": "quy tắc",
+    "content": "Nghị định số 238/2025/NĐ-CP có hiệu lực ngày 03/09/2025, thay thế Nghị định số 81/2021/NĐ-CP và Nghị định số 97/2023/NĐ-CP.",
+    "relation": "quy định bởi → Chính phủ",
+    "citation": "đoạn mở đầu",
+    "document": "Quy định mới nhất về mức học phí từ năm học 2025–2026",
+    "url": "https://phongkhtc.ntu.edu.vn/tin-tuc/quy-dinh-moi-nhat-ve-muc-hoc-phi-tu-nam-hoc-2025---2026"
+  },
+  {
+    "section": 9,
+    "entity": "Học phí giáo dục đại học",
+    "fact_type": "quy tắc",
+    "content": "Điều 10 Nghị định 238/2025/NĐ-CP quy định học phí đối với giáo dục đại học.",
+    "relation": "quy định bởi → Nghị định 238/2025/NĐ-CP",
+    "citation": "Điều 10",
+    "document": "Quy định mới nhất về mức học phí từ năm học 2025–2026",
+    "url": "https://phongkhtc.ntu.edu.vn/tin-tuc/quy-dinh-moi-nhat-ve-muc-hoc-phi-tu-nam-hoc-2025---2026"
+  },
+  {
+    "section": 9,
+    "entity": "Quy định văn hóa học đường của Trường Đại học Nha Trang",
+    "fact_type": "quy tắc",
+    "content": "Ban hành kèm theo Quyết định số 1351/QĐ-ĐHNT ngày 03/09/2025 của Hiệu trưởng Trường Đại học Nha Trang.",
+    "relation": "quy định bởi → Quyết định 1351/QĐ-ĐHNT",
+    "citation": "trang 1, dòng ban hành kèm theo",
+    "document": "QĐ 1351/QĐ-ĐHNT về văn hóa học đường",
+    "url": "https://phongctsv.ntu.edu.vn/uploads/46/files/2025/269-Q%C4%90%201351_Q%C4%90%20V%C4%83n%20h%C3%B3a%20h%E1%BB%8Dc%20%C4%91%C6%B0%E1%BB%9Dng%202025.pdf"
+  }
+]
